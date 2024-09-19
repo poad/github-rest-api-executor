@@ -42,6 +42,7 @@
     "@solid-primitives/storage": "^4.2.1",
     "@vercel/functions": "^1.4.1",
     "cookie": "^0.6.0",
+    "solid-highlight": "^0.1.26",
     "solid-js": "^1.8.22"
   },
   "license": "MIT",
