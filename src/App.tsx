@@ -1,8 +1,8 @@
 import { Show, type Component } from 'solid-js';
-import cookie from 'cookie';
+// import cookie from 'cookie';
 
 const App: Component = () => {
-  const tokens = cookie.parse(document.cookie);
+  // const tokens = cookie.parse(document.cookie);
   return (
     <>
       <nav>
@@ -11,9 +11,9 @@ const App: Component = () => {
         </button>
       </nav>
       <p class="text-4xl text-green-700 text-center py-20">Hello tailwind!</p>
-      <Show when={tokens}>
+      <Show when={document.cookie}>
         <p>
-          {Object.keys(tokens)}
+          {JSON.stringify(document.cookie)}
         </p>
       </Show>
     </>
