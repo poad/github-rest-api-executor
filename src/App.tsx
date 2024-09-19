@@ -1,20 +1,27 @@
 import { Show, type Component } from 'solid-js';
-// import cookie from 'cookie';
+import cookie from 'cookie';
 
 const App: Component = () => {
-  // const tokens = cookie.parse(document.cookie);
+  const tokens = cookie.parse(document.cookie);
   return (
     <>
       <nav>
-        <button>
-          <a href={`https://github.com/login/oauth/authorize?client_id=${import.meta.env.VITE_GITHUB_APP_CLIENT_ID}&redirect_uri=${window.location.origin}/api`}>Login with GitHub</a>
-        </button>
+        <Show when={!tokens?.['refresh-token']}>
+          <button>
+            <a href={`https://github.com/login/oauth/authorize?client_id=${import.meta.env.VITE_GITHUB_APP_CLIENT_ID}&redirect_uri=${window.location.origin}/api`}>Login with GitHub</a>
+          </button>
+        </Show>
       </nav>
-      <p class="text-4xl text-green-700 text-center py-20">Hello tailwind!</p>
-      <Show when={document.cookie}>
-        <p>
-          {JSON.stringify(document.cookie)}
-        </p>
+      <Show when={tokens?.['refresh-token']}>
+        <form>
+          <label>API path: <input type="text" name="path" /></label>
+          <select>
+            <option value="GET" selected>GET</option>
+            <option value="POST">POST</option>
+            <option value="PUT">PUT</option>
+            <option value="DELETE">DELETE</option>
+          </select>
+        </form>
       </Show>
     </>
   );

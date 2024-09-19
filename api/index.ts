@@ -21,7 +21,7 @@ async function redirectWithTokenCookies(origin: string, response: Response) {
   const cookieAccessToken = cookie.serialize(
     'access-token', tokens.access_token, {
       secure: true,
-      httpOnly: true,
+      httpOnly: false,
       path: '/',
       expires,
     });
@@ -29,7 +29,7 @@ async function redirectWithTokenCookies(origin: string, response: Response) {
   const cookieRefreshToken = cookie.serialize(
     'refresh-token', tokens.refresh_token, {
       secure: true,
-      httpOnly: true,
+      httpOnly: false,
       path: '/',
       expires: refreshTokenExpires,
     },
