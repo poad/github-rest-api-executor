@@ -1,21 +1,25 @@
-import { createSignal, Show, type Component } from 'solid-js';
+import { createResource, createSignal, Suspense, type Component } from 'solid-js';
 import { Highlight, Language } from 'solid-highlight';
+import './components.css';
 
 const InputBar: Component<{ token: string }> = (props: { token: string }) => {
   const [path, setPath] = createSignal<string>();
+  const [url, setUrl] = createSignal<string>();
   const [method, setMethod] = createSignal<string>('GET');
-  const [data, setData] = createSignal<string>();
   const [language] = createSignal<Language>(Language.JSON);
-  function executeApi() {
-    fetch(
-      `https://api.github.com${path()}`,
-      {
-        method: method(),
-        headers: [
-          ['Authorization', `Bearer ${props.token}`],
-        ],
-      }).then((response) => response.json().then(res => setData(() => JSON.stringify(res, null, 2))));
-  }
+  const [data] = createResource(
+    url, async (url) => {
+      const response = await fetch(
+        url,
+        {
+          method: method(),
+          headers: [
+            ['Authorization', `Bearer ${props.token}`],
+          ],
+        },
+      );
+      return JSON.stringify(await response.json(), null, 2);
+    });
 
   return (
     <>
@@ -31,18 +35,15 @@ const InputBar: Component<{ token: string }> = (props: { token: string }) => {
             <option value="DELETE">DELETE</option>
           </select>
         </label>
-        <input type="button" class="bg-slate-200 px-1.5 rounded mx-2" onClick={() => executeApi()} value="送信" />
+        <input type="button" class="bg-slate-200 px-1.5 rounded mx-2" onClick={() => setUrl(() => `https://api.github.com${path()}`)} value="送信" />
       </form>
-      <div class="w-[80%] mx-auto h-screen">
-        {/* <textarea class="w-full mx-auto mt-2 border resize-y leading-5 h-5/6" area-disabled readOnly> */}
-        <Show when={data()}>
-          <Highlight language={language()}>
-            {' '}
-            {data()}{' '}
+      <Suspense>
+        <div class="w-[80%] mx-auto h-screen">
+          <Highlight language={language()} class="w-full mx-auto mt-2 leading-5 h-5/6">
+            {data()}
           </Highlight>
-        </Show>
-        {/* </textarea> */}
-      </div>
+        </div>
+      </Suspense>
     </>
   );
 };

@@ -8,7 +8,7 @@ const App: Component = () => {
   return (
     <>
       <nav>
-        <Show when={!tokens?.['refresh-token']}>
+        <Show when={!tokens?.['access-token']}>
           <GitHubLoginButton clientId={import.meta.env.VITE_GITHUB_APP_CLIENT_ID} redirectUri={window.location.origin} />
         </Show>
       </nav>
