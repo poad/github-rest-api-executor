@@ -19,7 +19,7 @@
     "@stylistic/eslint-plugin-jsx": "^2.8.0",
     "@stylistic/eslint-plugin-plus": "^2.8.0",
     "@stylistic/eslint-plugin-ts": "^2.8.0",
-    "@types/node": "^22.7.3",
+    "@types/node": "^22.7.4",
     "autoprefixer": "^10.4.20",
     "dotenv": "^16.4.5",
     "eslint": "^9.11.1",
@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@octokit/core": "^6.1.2",
-    "@octokit/plugin-paginate-rest": "^11.3.3",
+    "@octokit/plugin-paginate-rest": "^11.3.5",
     "@solid-primitives/storage": "^4.2.1",
     "@vercel/functions": "^1.4.1",
     "cookie": "^0.6.0",
