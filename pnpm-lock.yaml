@@ -21,8 +21,8 @@ importers:
         specifier: ^1.4.1
         version: 1.4.1
       cookie:
-        specifier: ^0.7.1
-        version: 0.7.1
+        specifier: ^0.7.2
+        version: 0.7.2
       solid-js:
         specifier: ^1.9.1
         version: 1.9.1
@@ -100,8 +100,8 @@ importers:
         specifier: ^2.10.2
         version: 2.10.2(solid-js@1.9.1)(vite@5.4.8(@types/node@22.7.4))
       vite-plugin-vercel:
-        specifier: ^9.0.2
-        version: 9.0.2(vite@5.4.8(@types/node@22.7.4))
+        specifier: ^9.0.3
+        version: 9.0.3(vite@5.4.8(@types/node@22.7.4))
 
 packages:
 
@@ -1247,8 +1247,8 @@ packages:
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
 
-  cookie@0.7.1:
-    resolution: {integrity: sha512-6DnInpx7SJ2AK3+CTUE/ZM0vWTUboZCegxhC2xiIydHR9jNuTAASBrfEpHhiGOZw/nX51bHt6YQl8jsGo4y/0w==}
+  cookie@0.7.2:
+    resolution: {integrity: sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==}
     engines: {node: '>= 0.6'}
 
   create-require@1.1.1:
@@ -2317,15 +2317,6 @@ packages:
       encoding:
         optional: true
 
-  node-fetch@2.7.0:
-    resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
-    engines: {node: 4.x || >=6.0.0}
-    peerDependencies:
-      encoding: ^0.1.0
-    peerDependenciesMeta:
-      encoding:
-        optional: true
-
   node-gyp-build@4.8.2:
     resolution: {integrity: sha512-IRUxE4BVsHWXkV/SFOut4qTlagw2aM8T5/vnTsmrHJvVoKueJHRc/JaFND7QDDc61kLYUJ6qlZM3sqTSyx2dTw==}
     hasBin: true
@@ -2998,8 +2989,8 @@ packages:
       '@testing-library/jest-dom':
         optional: true
 
-  vite-plugin-vercel@9.0.2:
-    resolution: {integrity: sha512-BIki4agnhUvzyaHXRayaqLs6jyacA1N46BmXpFh2srN5xMkF//TV2oDtZJvDl0vuJzmM+/hhtT4iryQoXfjTiQ==}
+  vite-plugin-vercel@9.0.3:
+    resolution: {integrity: sha512-Sim0M/12OcseTFlp+R3alADOCYAb49f9fRqNJMvilu8wsZB99NSM1UthEgiMfuqBi7aTb3o3i+gxHgXzttVNIA==}
     peerDependencies:
       '@vite-plugin-vercel/vike': 9.0.2
       vike: '*'
@@ -3565,7 +3556,7 @@ snapshots:
       detect-libc: 2.0.3
       https-proxy-agent: 5.0.1
       make-dir: 3.1.0
-      node-fetch: 2.7.0
+      node-fetch: 2.6.9
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
@@ -4342,7 +4333,7 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
-  cookie@0.7.1: {}
+  cookie@0.7.2: {}
 
   create-require@1.1.1: {}
 
@@ -5484,10 +5475,6 @@ snapshots:
     dependencies:
       whatwg-url: 5.0.0
 
-  node-fetch@2.7.0:
-    dependencies:
-      whatwg-url: 5.0.0
-
   node-gyp-build@4.8.2: {}
 
   node-releases@2.0.18: {}
@@ -6232,7 +6219,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  vite-plugin-vercel@9.0.2(vite@5.4.8(@types/node@22.7.4)):
+  vite-plugin-vercel@9.0.3(vite@5.4.8(@types/node@22.7.4)):
     dependencies:
       '@brillout/libassert': 0.5.8
       '@manypkg/find-root': 2.2.3
