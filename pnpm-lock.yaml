@@ -98,8 +98,8 @@ importers:
         specifier: ^8.10.0
         version: 8.10.0(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3)
       vercel:
-        specifier: ^37.9.0
-        version: 37.9.0
+        specifier: ^37.11.0
+        version: 37.11.0
       vite:
         specifier: ^5.4.9
         version: 5.4.9(@types/node@22.7.6)
@@ -2835,8 +2835,8 @@ packages:
   validate-html-nesting@1.2.2:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
 
-  vercel@37.9.0:
-    resolution: {integrity: sha512-uAayU4fnLqBdxyKay4xhcQVPspUYJeAGRGwTTtKgjjIbe474gONmaEFx644XfnpPQSSqHsIcu4iKnNnRI3NXgQ==}
+  vercel@37.11.0:
+    resolution: {integrity: sha512-LCTKg4zxfHFBYULLcIEEi9CxFnywd0y0cUd23wdajqBKSBcEqrR2z77v0uU1G5dzlvqmL7dpAHXYu55jNU1GeA==}
     engines: {node: '>= 16'}
     hasBin: true
 
@@ -5827,7 +5827,7 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vercel@37.9.0:
+  vercel@37.11.0:
     dependencies:
       '@vercel/build-utils': 8.4.11
       '@vercel/fun': 1.1.0
