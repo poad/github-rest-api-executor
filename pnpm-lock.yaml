@@ -83,8 +83,8 @@ importers:
         specifier: ^7.1.0
         version: 7.1.0(eslint@9.14.0(jiti@1.21.6))
       eslint-plugin-solid:
-        specifier: ^0.14.3
-        version: 0.14.3(eslint@9.14.0(jiti@1.21.6))(typescript@5.6.3)
+        specifier: ^0.14.4
+        version: 0.14.4(eslint@9.14.0(jiti@1.21.6))(typescript@5.6.3)
       postcss:
         specifier: ^8.4.49
         version: 8.4.49
@@ -98,8 +98,8 @@ importers:
         specifier: ^8.14.0
         version: 8.14.0(eslint@9.14.0(jiti@1.21.6))(typescript@5.6.3)
       vercel:
-        specifier: ^37.14.0
-        version: 37.14.0
+        specifier: ^38.0.0
+        version: 38.0.0
       vite:
         specifier: ^5.4.11
         version: 5.4.11(@types/node@22.9.0)
@@ -950,8 +950,8 @@ packages:
   '@vercel/hydrogen@1.0.9':
     resolution: {integrity: sha512-IPAVaALuGAzt2apvTtBs5tB+8zZRzn/yG3AGp8dFyCsw/v5YOuk0Q5s8Z3fayLvJbFpjrKtqRNDZzVJBBU3MrQ==}
 
-  '@vercel/next@4.3.18':
-    resolution: {integrity: sha512-ih6++AA7/NCcLkMpdsDhr/folMlAKsU1sYUoyOjq4rYE9sSapELtgxls0CArv4ehE2Tt4YwoxBISnKPZKK5SSA==}
+  '@vercel/next@4.3.19':
+    resolution: {integrity: sha512-3Pz8zaLD/9QKE5HrXoZ6B8O1jBvIzm6HqFQseQ3biWCijf0s/rHi8MVdzLBaNR8R7j76B08ItEsXEtil2Apvdw==}
 
   '@vercel/nft@0.27.3':
     resolution: {integrity: sha512-oySTdDSzUAFDXpsSLk9Q943o+/Yu/+TCFxnehpFQEf/3khi2stMpTHPVNwFdvZq/Z4Ky93lE+MGHpXCRpMkSCA==}
@@ -966,8 +966,8 @@ packages:
   '@vercel/node@3.2.24':
     resolution: {integrity: sha512-KEm50YBmcfRNOw5NfdcqMI4BkP4+5TD9kRwAByHHlIZXLj1NTTknvMF+69sHBYzwpK/SUZIkeo7jTrtcl4g+RQ==}
 
-  '@vercel/python@4.3.1':
-    resolution: {integrity: sha512-pWRApBwUsAQJS8oZ7eKMiaBGbYJO71qw2CZqDFvkTj34FNBZtNIUcWSmqGfJJY5m2pU/9wt8z1CnKIyT9dstog==}
+  '@vercel/python@4.4.0':
+    resolution: {integrity: sha512-wL6OCDk0NIgSLsoTTqbzmRXGtdu3Ilyc5WxMTt24cAK5IhLMebdZ9BgP5eD45YDIkAv79SaENcqnC9gORtlk/g==}
 
   '@vercel/redwood@2.1.8':
     resolution: {integrity: sha512-qBUBqIDxPEYnxRh3tsvTaPMtBkyK/D2tt9tBugNPe0OeYnMCMXVj9SJYbxiDI2GzAEFUZn4Poh63CZtXMDb9Tg==}
@@ -1313,8 +1313,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  electron-to-chromium@1.5.56:
-    resolution: {integrity: sha512-7lXb9dAvimCFdvUMTyucD4mnIndt/xhRKFAlky0CyFogdnNmdPQNoHI23msF/2V4mpTxMzgMdjK4+YRlFlRQZw==}
+  electron-to-chromium@1.5.57:
+    resolution: {integrity: sha512-xS65H/tqgOwUBa5UmOuNSLuslDo7zho0y/lgQw35pnrqiZh7UOWHCeL/Bt6noJATbA6tpQJGCifsFsIRZj1Fqg==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -1568,8 +1568,8 @@ packages:
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
 
-  eslint-plugin-solid@0.14.3:
-    resolution: {integrity: sha512-eDeyPrijSjVGeyb4oKoyidgLlMDZwAg/YdxiY9QvGXl2kLgpcHvLpgpaGK4KJ8xSsg0ym3B2dPRBAIlT7iUrEQ==}
+  eslint-plugin-solid@0.14.4:
+    resolution: {integrity: sha512-uWsNA2okBgwBRPxjsQ7DxlRksq1EKdMhwQlViHdkkRDLnWqwnZEjQASWeckZ0DI24sVzPeETJhPv1BWKKiu99A==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -2160,8 +2160,8 @@ packages:
       encoding:
         optional: true
 
-  node-gyp-build@4.8.2:
-    resolution: {integrity: sha512-IRUxE4BVsHWXkV/SFOut4qTlagw2aM8T5/vnTsmrHJvVoKueJHRc/JaFND7QDDc61kLYUJ6qlZM3sqTSyx2dTw==}
+  node-gyp-build@4.8.3:
+    resolution: {integrity: sha512-EMS95CMJzdoSKoIiXo8pxKoL8DYxwIZXYlLmgPb8KUv794abpnLK6ynsCAWNliOjREKruYKdzbh76HHYUHX7nw==}
     hasBin: true
 
   node-releases@2.0.18:
@@ -2760,8 +2760,8 @@ packages:
   validate-html-nesting@1.2.2:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
 
-  vercel@37.14.0:
-    resolution: {integrity: sha512-ZSEvhARyJBn4YnEVZULsvti8/OHd5txRCgJqEhNIyo/XXSvBJSvlCjA+SE1zraqn0rqyEOG3+56N3kh1Enk8Tg==}
+  vercel@38.0.0:
+    resolution: {integrity: sha512-komgRICuCoOdJn/BgTYN69DvRY3/BZYsz1pWUWjgAmlbgVWdnVcQCyVtdBvg6mAUl4gaOlXpG7ax50pt21GxTg==}
     engines: {node: '>= 16'}
     hasBin: true
 
@@ -3659,7 +3659,7 @@ snapshots:
       '@vercel/static-config': 3.0.0
       ts-morph: 12.0.0
 
-  '@vercel/next@4.3.18':
+  '@vercel/next@4.3.19':
     dependencies:
       '@vercel/nft': 0.27.3
     transitivePeerDependencies:
@@ -3678,7 +3678,7 @@ snapshots:
       glob: 7.2.3
       graceful-fs: 4.2.11
       micromatch: 4.0.8
-      node-gyp-build: 4.8.2
+      node-gyp-build: 4.8.3
       resolve-from: 5.0.0
     transitivePeerDependencies:
       - encoding
@@ -3696,7 +3696,7 @@ snapshots:
       glob: 7.2.3
       graceful-fs: 4.2.11
       micromatch: 4.0.8
-      node-gyp-build: 4.8.2
+      node-gyp-build: 4.8.3
       resolve-from: 5.0.0
     transitivePeerDependencies:
       - encoding
@@ -3730,7 +3730,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@vercel/python@4.3.1': {}
+  '@vercel/python@4.4.0': {}
 
   '@vercel/redwood@2.1.8':
     dependencies:
@@ -3953,7 +3953,7 @@ snapshots:
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001680
-      electron-to-chromium: 1.5.56
+      electron-to-chromium: 1.5.57
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -4112,7 +4112,7 @@ snapshots:
       signal-exit: 4.0.2
       time-span: 4.0.0
 
-  electron-to-chromium@1.5.56: {}
+  electron-to-chromium@1.5.57: {}
 
   emoji-regex@8.0.0: {}
 
@@ -4434,7 +4434,7 @@ snapshots:
     dependencies:
       eslint: 9.14.0(jiti@1.21.6)
 
-  eslint-plugin-solid@0.14.3(eslint@9.14.0(jiti@1.21.6))(typescript@5.6.3):
+  eslint-plugin-solid@0.14.4(eslint@9.14.0(jiti@1.21.6))(typescript@5.6.3):
     dependencies:
       '@typescript-eslint/utils': 8.14.0(eslint@9.14.0(jiti@1.21.6))(typescript@5.6.3)
       eslint: 9.14.0(jiti@1.21.6)
@@ -5029,7 +5029,7 @@ snapshots:
     dependencies:
       whatwg-url: 5.0.0
 
-  node-gyp-build@4.8.2: {}
+  node-gyp-build@4.8.3: {}
 
   node-releases@2.0.18: {}
 
@@ -5683,15 +5683,15 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vercel@37.14.0:
+  vercel@38.0.0:
     dependencies:
       '@vercel/build-utils': 8.4.12
       '@vercel/fun': 1.1.0
       '@vercel/go': 3.2.0
       '@vercel/hydrogen': 1.0.9
-      '@vercel/next': 4.3.18
+      '@vercel/next': 4.3.19
       '@vercel/node': 3.2.24
-      '@vercel/python': 4.3.1
+      '@vercel/python': 4.4.0
       '@vercel/redwood': 2.1.8
       '@vercel/remix-builder': 2.2.13
       '@vercel/ruby': 2.1.0
