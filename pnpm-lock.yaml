@@ -59,8 +59,8 @@ importers:
         specifier: ^2.11.0
         version: 2.11.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.3)
       '@types/node':
-        specifier: ^22.9.0
-        version: 22.9.0
+        specifier: ^22.9.1
+        version: 22.9.1
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
@@ -90,7 +90,7 @@ importers:
         version: 8.4.49
       tailwindcss:
         specifier: 3.4.15
-        version: 3.4.15(ts-node@10.9.1(@types/node@22.9.0)(typescript@5.6.3))
+        version: 3.4.15(ts-node@10.9.1(@types/node@22.9.1)(typescript@5.6.3))
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -98,17 +98,17 @@ importers:
         specifier: ^8.15.0
         version: 8.15.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.3)
       vercel:
-        specifier: ^39.0.4
-        version: 39.0.4
+        specifier: ^39.1.0
+        version: 39.1.0
       vite:
         specifier: ^5.4.11
-        version: 5.4.11(@types/node@22.9.0)
+        version: 5.4.11(@types/node@22.9.1)
       vite-plugin-solid:
         specifier: ^2.10.2
-        version: 2.10.2(solid-js@1.9.3)(vite@5.4.11(@types/node@22.9.0))
+        version: 2.10.2(solid-js@1.9.3)(vite@5.4.11(@types/node@22.9.1))
       vite-plugin-vercel:
         specifier: ^9.0.3
-        version: 9.0.3(vite@5.4.11(@types/node@22.9.0))
+        version: 9.0.3(vite@5.4.11(@types/node@22.9.1))
 
 packages:
 
@@ -859,8 +859,8 @@ packages:
   '@types/node@16.18.11':
     resolution: {integrity: sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==}
 
-  '@types/node@22.9.0':
-    resolution: {integrity: sha512-vuyHg81vvWA1Z1ELfvLko2c8f34gyA0zaic0+Rllc5lbCnbSyuvb2Oxpm6TAUAC/2xZN3QGqxBNggD1nNR2AfQ==}
+  '@types/node@22.9.1':
+    resolution: {integrity: sha512-p8Yy/8sw1caA8CdRIQBG5tiLHmxtQKObCijiAa9Ez+d4+PRffM4054xbju0msf+cvhJpnFEeNjxmVT/0ipktrg==}
 
   '@typescript-eslint/eslint-plugin@8.15.0':
     resolution: {integrity: sha512-+zkm9AR1Ds9uLWN3fkoeXgFppaQ+uEVtfOV62dDmsy9QCNqlRHWNEck4yarvRNrvRcHQLGfqBNui3cimoz8XAg==}
@@ -955,8 +955,8 @@ packages:
   '@vercel/hydrogen@1.0.9':
     resolution: {integrity: sha512-IPAVaALuGAzt2apvTtBs5tB+8zZRzn/yG3AGp8dFyCsw/v5YOuk0Q5s8Z3fayLvJbFpjrKtqRNDZzVJBBU3MrQ==}
 
-  '@vercel/next@4.3.20':
-    resolution: {integrity: sha512-EOKwb6YLr5o75NwuB02mep2aZgQSOLZqdm03dRXGDPW70du4a3IMRk2+6WObPy5y773DMUIoywq36K7DdBWFTQ==}
+  '@vercel/next@4.3.21':
+    resolution: {integrity: sha512-bF4w95Q+W75gYU2KA73jTrSb4BX3R/0MYMYM7nuiC0aWg+g0yejvgs151fmjQr0JDtR4EL9lkv5Bo01rKsab8Q==}
 
   '@vercel/nft@0.27.3':
     resolution: {integrity: sha512-oySTdDSzUAFDXpsSLk9Q943o+/Yu/+TCFxnehpFQEf/3khi2stMpTHPVNwFdvZq/Z4Ky93lE+MGHpXCRpMkSCA==}
@@ -971,8 +971,8 @@ packages:
   '@vercel/node@3.2.25':
     resolution: {integrity: sha512-Htc7I/nHpxfMtmzoii8Fnm01iFiFeTW99OYw67S8UAJuY+Fc18RnZVPjtw1fTgf4EcRxsFGP6+nG1IkSqty6uA==}
 
-  '@vercel/python@4.5.0':
-    resolution: {integrity: sha512-+NWvba/7KvtC3kpXVK0O286ASLwJjtW1imdBb3aUiMe/f48QfwhhbbSaUFi1+ovXAxaspt8sW8B/iRHAaxccxA==}
+  '@vercel/python@4.5.1':
+    resolution: {integrity: sha512-nZX1oezs5E+Un5Pw21P7cEXV9WBohRSq8gDAqipu7KHFfdAQ7ubfBclRmDTGaHOiYvdLsJPiE599vsUfKKob/w==}
 
   '@vercel/redwood@2.1.8':
     resolution: {integrity: sha512-qBUBqIDxPEYnxRh3tsvTaPMtBkyK/D2tt9tBugNPe0OeYnMCMXVj9SJYbxiDI2GzAEFUZn4Poh63CZtXMDb9Tg==}
@@ -1180,13 +1180,13 @@ packages:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
 
-  chokidar@3.3.1:
-    resolution: {integrity: sha512-4QYCEWOcK3OJrxwvyyAOxFuhpvOVCYkr33LPfFNBjAD/w3sEzWsp2BUOkI4l9bHvWioAd0rc6NlHUOEaWkTeqg==}
-    engines: {node: '>= 8.10.0'}
-
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
     engines: {node: '>= 8.10.0'}
+
+  chokidar@4.0.0:
+    resolution: {integrity: sha512-mxIojEAQcuEvT/lyXq+jf/3cO/KoA6z4CeNDGGevTybECPOMFCnQy3OPahluUkbqgPNGw5Bi78UC7Po6Lhy+NA==}
+    engines: {node: '>= 14.16.0'}
 
   chownr@3.0.0:
     resolution: {integrity: sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQcrqEN1+g==}
@@ -1697,11 +1697,6 @@ packages:
   fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
 
-  fsevents@2.1.3:
-    resolution: {integrity: sha512-Auw9a4AxqWpa9GUfj370BMPzzyncfBABW8Mab7BGWBYDj4Isgq+cDKtx0i6u9jcX9pQDnswsaaOTgTmA5pEjuQ==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
@@ -2165,8 +2160,8 @@ packages:
       encoding:
         optional: true
 
-  node-gyp-build@4.8.3:
-    resolution: {integrity: sha512-EMS95CMJzdoSKoIiXo8pxKoL8DYxwIZXYlLmgPb8KUv794abpnLK6ynsCAWNliOjREKruYKdzbh76HHYUHX7nw==}
+  node-gyp-build@4.8.4:
+    resolution: {integrity: sha512-LA4ZjwlnUblHVgq0oBF3Jl/6h/Nvs5fzBLwdEF4nuxnFdsfajde4WfxtJr3CaiH+F6ewcIB/q4jQ4UzPyid+CQ==}
     hasBin: true
 
   node-releases@2.0.18:
@@ -2400,13 +2395,13 @@ packages:
     resolution: {integrity: sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==}
     engines: {node: '>= 6'}
 
-  readdirp@3.3.0:
-    resolution: {integrity: sha512-zz0pAkSPOXXm1viEwygWIPSPkcBYjW1xU5j/JBh5t9bGCJwa6f9+BJa6VaB2g+b55yVrmXzqkyLf4xaWYM0IkQ==}
-    engines: {node: '>=8.10.0'}
-
   readdirp@3.6.0:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
+
+  readdirp@4.0.2:
+    resolution: {integrity: sha512-yDMz9g+VaZkqBYS/ozoBJwaBhTbZo3UNYQHNRw1D3UFQB8oHB4uS/tAODO+ZLjGWmUbKnIlOWO+aaIiAxrUWHA==}
+    engines: {node: '>= 14.16.0'}
 
   regexp.prototype.flags@1.5.3:
     resolution: {integrity: sha512-vqlC04+RQoFalODCbCumG2xIOvapzVMHwsyIGM/SIE8fRhFFsXeH8/QQ+s0T0kDAhKc4k30s73/0ydkHQz6HlQ==}
@@ -2763,8 +2758,8 @@ packages:
   validate-html-nesting@1.2.2:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
 
-  vercel@39.0.4:
-    resolution: {integrity: sha512-BDvK8IB0Wf2AMxARlJNnFFP6O7Cj5S7+GNY8JMLn8UVVEDHCLR8iwcJ3EjIzA+3GsBEle7oxiyylVVWQ+rTvNw==}
+  vercel@39.1.0:
+    resolution: {integrity: sha512-ipUI6iJ5PNFRMjb6LmXBNVzzCi9RAmr91Vli8+8324+ApiGRakzAuwwefRNjhS8CVi5glp2cIB03kXDaWTHaXw==}
     engines: {node: '>= 16'}
     hasBin: true
 
@@ -2883,8 +2878,8 @@ packages:
     resolution: {integrity: sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==}
     engines: {node: '>=18'}
 
-  yaml@2.6.0:
-    resolution: {integrity: sha512-a6ae//JvKDEra2kdi1qzCyrJW/WZCgFi8ydDV+eXExl95t+5R+ijnqHJbz9tmMh8FUjx3iv2fCQ4dclAQlO2UQ==}
+  yaml@2.6.1:
+    resolution: {integrity: sha512-7r0XPzioN/Q9kXBro/XPnA6kznR73DHq+GXh5ON7ZozRO6aMjbmiBuKste2wslTFkC5d1dw0GooOCepZXJ2SAg==}
     engines: {node: '>= 14'}
     hasBin: true
 
@@ -3525,7 +3520,7 @@ snapshots:
 
   '@types/node@16.18.11': {}
 
-  '@types/node@22.9.0':
+  '@types/node@22.9.1':
     dependencies:
       undici-types: 6.19.8
 
@@ -3663,7 +3658,7 @@ snapshots:
       '@vercel/static-config': 3.0.0
       ts-morph: 12.0.0
 
-  '@vercel/next@4.3.20':
+  '@vercel/next@4.3.21':
     dependencies:
       '@vercel/nft': 0.27.3
     transitivePeerDependencies:
@@ -3682,7 +3677,7 @@ snapshots:
       glob: 7.2.3
       graceful-fs: 4.2.11
       micromatch: 4.0.8
-      node-gyp-build: 4.8.3
+      node-gyp-build: 4.8.4
       resolve-from: 5.0.0
     transitivePeerDependencies:
       - encoding
@@ -3700,7 +3695,7 @@ snapshots:
       glob: 7.2.3
       graceful-fs: 4.2.11
       micromatch: 4.0.8
-      node-gyp-build: 4.8.3
+      node-gyp-build: 4.8.4
       resolve-from: 5.0.0
     transitivePeerDependencies:
       - encoding
@@ -3734,7 +3729,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@vercel/python@4.5.0': {}
+  '@vercel/python@4.5.1': {}
 
   '@vercel/redwood@2.1.8':
     dependencies:
@@ -3984,18 +3979,6 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  chokidar@3.3.1:
-    dependencies:
-      anymatch: 3.1.3
-      braces: 3.0.3
-      glob-parent: 5.1.2
-      is-binary-path: 2.1.0
-      is-glob: 4.0.3
-      normalize-path: 3.0.0
-      readdirp: 3.3.0
-    optionalDependencies:
-      fsevents: 2.1.3
-
   chokidar@3.6.0:
     dependencies:
       anymatch: 3.1.3
@@ -4007,6 +3990,10 @@ snapshots:
       readdirp: 3.6.0
     optionalDependencies:
       fsevents: 2.3.3
+
+  chokidar@4.0.0:
+    dependencies:
+      readdirp: 4.0.2
 
   chownr@3.0.0: {}
 
@@ -4607,9 +4594,6 @@ snapshots:
 
   fs.realpath@1.0.0: {}
 
-  fsevents@2.1.3:
-    optional: true
-
   fsevents@2.3.3:
     optional: true
 
@@ -5032,7 +5016,7 @@ snapshots:
     dependencies:
       whatwg-url: 5.0.0
 
-  node-gyp-build@4.8.3: {}
+  node-gyp-build@4.8.4: {}
 
   node-releases@2.0.18: {}
 
@@ -5184,13 +5168,13 @@ snapshots:
       camelcase-css: 2.0.1
       postcss: 8.4.49
 
-  postcss-load-config@4.0.2(postcss@8.4.49)(ts-node@10.9.1(@types/node@22.9.0)(typescript@5.6.3)):
+  postcss-load-config@4.0.2(postcss@8.4.49)(ts-node@10.9.1(@types/node@22.9.1)(typescript@5.6.3)):
     dependencies:
       lilconfig: 3.1.2
-      yaml: 2.6.0
+      yaml: 2.6.1
     optionalDependencies:
       postcss: 8.4.49
-      ts-node: 10.9.1(@types/node@22.9.0)(typescript@5.6.3)
+      ts-node: 10.9.1(@types/node@22.9.1)(typescript@5.6.3)
 
   postcss-nested@6.2.0(postcss@8.4.49):
     dependencies:
@@ -5244,13 +5228,11 @@ snapshots:
       string_decoder: 1.3.0
       util-deprecate: 1.0.2
 
-  readdirp@3.3.0:
-    dependencies:
-      picomatch: 2.3.1
-
   readdirp@3.6.0:
     dependencies:
       picomatch: 2.3.1
+
+  readdirp@4.0.2: {}
 
   regexp.prototype.flags@1.5.3:
     dependencies:
@@ -5475,7 +5457,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tailwindcss@3.4.15(ts-node@10.9.1(@types/node@22.9.0)(typescript@5.6.3)):
+  tailwindcss@3.4.15(ts-node@10.9.1(@types/node@22.9.1)(typescript@5.6.3)):
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -5494,7 +5476,7 @@ snapshots:
       postcss: 8.4.49
       postcss-import: 15.1.0(postcss@8.4.49)
       postcss-js: 4.0.1(postcss@8.4.49)
-      postcss-load-config: 4.0.2(postcss@8.4.49)(ts-node@10.9.1(@types/node@22.9.0)(typescript@5.6.3))
+      postcss-load-config: 4.0.2(postcss@8.4.49)(ts-node@10.9.1(@types/node@22.9.1)(typescript@5.6.3))
       postcss-nested: 6.2.0(postcss@8.4.49)
       postcss-selector-parser: 6.1.2
       resolve: 1.22.8
@@ -5564,14 +5546,14 @@ snapshots:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
-  ts-node@10.9.1(@types/node@22.9.0)(typescript@5.6.3):
+  ts-node@10.9.1(@types/node@22.9.1)(typescript@5.6.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.9.0
+      '@types/node': 22.9.1
       acorn: 8.14.0
       acorn-walk: 8.3.4
       arg: 4.1.3
@@ -5684,27 +5666,27 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vercel@39.0.4:
+  vercel@39.1.0:
     dependencies:
       '@vercel/build-utils': 8.4.12
       '@vercel/fun': 1.1.0
       '@vercel/go': 3.2.1
       '@vercel/hydrogen': 1.0.9
-      '@vercel/next': 4.3.20
+      '@vercel/next': 4.3.21
       '@vercel/node': 3.2.25
-      '@vercel/python': 4.5.0
+      '@vercel/python': 4.5.1
       '@vercel/redwood': 2.1.8
       '@vercel/remix-builder': 2.2.14
       '@vercel/ruby': 2.1.0
       '@vercel/static-build': 2.5.34
-      chokidar: 3.3.1
+      chokidar: 4.0.0
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
       - encoding
       - supports-color
 
-  vite-plugin-solid@2.10.2(solid-js@1.9.3)(vite@5.4.11(@types/node@22.9.0)):
+  vite-plugin-solid@2.10.2(solid-js@1.9.3)(vite@5.4.11(@types/node@22.9.1)):
     dependencies:
       '@babel/core': 7.26.0
       '@types/babel__core': 7.20.5
@@ -5712,12 +5694,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.3
       solid-refresh: 0.6.3(solid-js@1.9.3)
-      vite: 5.4.11(@types/node@22.9.0)
-      vitefu: 0.2.5(vite@5.4.11(@types/node@22.9.0))
+      vite: 5.4.11(@types/node@22.9.1)
+      vitefu: 0.2.5(vite@5.4.11(@types/node@22.9.1))
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-vercel@9.0.3(vite@5.4.11(@types/node@22.9.0)):
+  vite-plugin-vercel@9.0.3(vite@5.4.11(@types/node@22.9.1)):
     dependencies:
       '@brillout/libassert': 0.5.8
       '@manypkg/find-root': 2.2.3
@@ -5727,24 +5709,24 @@ snapshots:
       esbuild: 0.24.0
       fast-glob: 3.3.2
       magicast: 0.3.5
-      vite: 5.4.11(@types/node@22.9.0)
+      vite: 5.4.11(@types/node@22.9.1)
       zod: 3.23.8
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  vite@5.4.11(@types/node@22.9.0):
+  vite@5.4.11(@types/node@22.9.1):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.49
       rollup: 4.27.3
     optionalDependencies:
-      '@types/node': 22.9.0
+      '@types/node': 22.9.1
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.4.11(@types/node@22.9.0)):
+  vitefu@0.2.5(vite@5.4.11(@types/node@22.9.1)):
     optionalDependencies:
-      vite: 5.4.11(@types/node@22.9.0)
+      vite: 5.4.11(@types/node@22.9.1)
 
   web-vitals@0.2.4: {}
 
@@ -5807,7 +5789,7 @@ snapshots:
 
   yallist@5.0.0: {}
 
-  yaml@2.6.0: {}
+  yaml@2.6.1: {}
 
   yauzl-clone@1.0.4:
     dependencies:
