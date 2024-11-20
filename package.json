@@ -42,7 +42,7 @@
     "@octokit/plugin-paginate-rest": "^11.3.5",
     "@solid-primitives/storage": "^4.2.1",
     "@vercel/functions": "^1.5.0",
-    "cookie": "^1.0.1",
+    "cookie": "^1.0.2",
     "solid-js": "^1.9.3"
   },
   "license": "MIT",
