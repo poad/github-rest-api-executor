@@ -32,7 +32,7 @@
     "tailwindcss": "3.4.17",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.19.1",
-    "vercel": "^39.2.5",
+    "vercel": "^39.2.6",
     "vite": "^6.0.7",
     "vite-plugin-solid": "^2.11.0",
     "vite-plugin-vercel": "^9.0.4"
@@ -43,7 +43,7 @@
     "@solid-primitives/storage": "^4.2.1",
     "@vercel/functions": "^1.5.2",
     "cookie": "^1.0.2",
-    "solid-js": "^1.9.3"
+    "solid-js": "^1.9.4"
   },
   "license": "MIT",
   "pnpm": {
