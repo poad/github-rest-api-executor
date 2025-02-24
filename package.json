@@ -33,15 +33,15 @@
     "postcss": "^8.5.3",
     "tailwindcss": "4.0.8",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.24.1",
-    "vercel": "^41.2.0",
+    "typescript-eslint": "^8.25.0",
+    "vercel": "^41.2.1",
     "vite": "^6.1.1",
     "vite-plugin-solid": "^2.11.2",
     "vite-plugin-vercel": "^9.0.5"
   },
   "dependencies": {
     "@octokit/core": "^6.1.4",
-    "@octokit/plugin-paginate-rest": "^11.4.2",
+    "@octokit/plugin-paginate-rest": "^11.4.3",
     "@solid-primitives/storage": "^4.3.1",
     "@vercel/functions": "^2.0.0",
     "cookie": "^1.0.2",
