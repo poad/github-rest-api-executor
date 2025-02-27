@@ -36,7 +36,7 @@
     "typescript-eslint": "^8.25.0",
     "vercel": "^41.2.2",
     "vite": "^6.2.0",
-    "vite-plugin-solid": "^2.11.5",
+    "vite-plugin-solid": "^2.11.6",
     "vite-plugin-vercel": "^9.0.5"
   },
   "dependencies": {
