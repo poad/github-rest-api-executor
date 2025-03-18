@@ -24,7 +24,7 @@
     "autoprefixer": "^10.4.21",
     "dotenv": "^16.4.7",
     "eslint": "^9.22.0",
-    "eslint-import-resolver-typescript": "^4.1.1",
+    "eslint-import-resolver-typescript": "^4.2.1",
     "eslint-plugin-boundaries": "^5.0.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-promise": "^7.2.1",
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@octokit/core": "^6.1.4",
-    "@octokit/plugin-paginate-rest": "^11.4.3",
+    "@octokit/plugin-paginate-rest": "^11.5.0",
     "@solid-primitives/storage": "^4.3.1",
     "@vercel/functions": "^2.0.0",
     "cookie": "^1.0.2",
