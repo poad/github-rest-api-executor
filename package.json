@@ -34,14 +34,14 @@
     "tailwindcss": "4.1.7",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.32.1",
-    "vercel": "^41.7.0",
+    "vercel": "^42.1.1",
     "vite": "^6.3.4",
     "vite-plugin-solid": "^2.11.6",
     "vite-plugin-vercel": "^9.0.5"
   },
   "dependencies": {
-    "@octokit/core": "^6.1.5",
-    "@octokit/plugin-paginate-rest": "^12.0.0",
+    "@octokit/core": "^7.0.2",
+    "@octokit/plugin-paginate-rest": "^13.0.0",
     "@solid-primitives/storage": "^4.3.2",
     "@vercel/functions": "^2.1.0",
     "cookie": "^1.0.2",
