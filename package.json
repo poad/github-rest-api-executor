@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@octokit/core": "^7.0.2",
-    "@octokit/plugin-paginate-rest": "^13.0.0",
+    "@octokit/plugin-paginate-rest": "^13.0.1",
     "@solid-primitives/storage": "^4.3.2",
     "@vercel/functions": "^2.1.0",
     "cookie": "^1.0.2",
