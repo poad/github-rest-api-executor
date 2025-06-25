@@ -34,7 +34,7 @@
     "tailwindcss": "4.1.10",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.35.0",
-    "vercel": "^44.2.1",
+    "vercel": "^44.2.2",
     "vite": "^7.0.0",
     "vite-plugin-solid": "^2.11.7",
     "vite-plugin-vercel": "^9.0.7"
@@ -557,5 +557,5 @@
       "zod"
     ]
   },
-  "packageManager": "pnpm@10.12.1"
+  "packageManager": "pnpm@10.12.3"
 }
