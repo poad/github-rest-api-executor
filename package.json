@@ -30,8 +30,8 @@
     "tailwindcss": "4.1.11",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.35.1",
-    "vercel": "^44.2.11",
-    "vite": "^7.0.1",
+    "vercel": "^44.2.12",
+    "vite": "^7.0.2",
     "vite-plugin-solid": "^2.11.7",
     "vite-plugin-vercel": "^9.0.7"
   },
@@ -39,7 +39,7 @@
     "@octokit/core": "^7.0.2",
     "@octokit/plugin-paginate-rest": "^13.1.1",
     "@solid-primitives/storage": "^4.3.3",
-    "@vercel/functions": "^2.2.2",
+    "@vercel/functions": "^2.2.3",
     "cookie": "^1.0.2",
     "solid-js": "^1.9.7"
   },
