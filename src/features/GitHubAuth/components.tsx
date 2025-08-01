@@ -1,4 +1,4 @@
-import { JSX } from 'solid-js';
+import { JSX } from 'solid-js/jsx-runtime';
 
 function GitHubLoginButton(props: {clientId: string; redirectUri: string}): JSX.Element {
   return (

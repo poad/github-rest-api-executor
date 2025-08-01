@@ -1,15 +1,27 @@
 // @ts-check
 
-// @ts-ignore
 import eslint from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
 import tseslint from 'typescript-eslint';
 import importPlugin from 'eslint-plugin-import';
 
-// @ts-ignore
 import solid from 'eslint-plugin-solid';
 
+
+import { FlatCompat } from '@eslint/eslintrc';
+
+const compat = new FlatCompat();
+
+import { includeIgnoreFile } from '@eslint/compat';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const gitignorePath = path.resolve(__dirname, '.gitignore');
+
 export default tseslint.config(
+  includeIgnoreFile(gitignorePath),
   {
     ignores: [
       '**/*.d.ts',
@@ -24,9 +36,9 @@ export default tseslint.config(
   eslint.configs.recommended,
   ...tseslint.configs.strict,
   ...tseslint.configs.stylistic,
+  importPlugin.flatConfigs.recommended,
   {
     files: ['src/**/*.{ts,tsx}', 'api/**/*.ts'],
-    ...importPlugin.flatConfigs.recommended,
     languageOptions: {
       parserOptions: {
         ecmaVersion: 'latest',
@@ -55,12 +67,10 @@ export default tseslint.config(
       },
     },
     rules: {
-      '@stylistic/semi': 'error',
-      '@stylistic/ts/indent': ['error', 2],
-      '@stylistic/jsx/jsx-indent': ['error', 2],
-      "comma-dangle": ["error", "always-multiline"],
-      "quotes": ["error", "single"],
-      'semi': ["error", "always"],
+      '@stylistic/semi': ['error', 'always'],
+      // '@stylistic/indent': ['error', 2],
+      '@stylistic/comma-dangle': ['error', 'always-multiline'],
+      '@stylistic/quotes': ['error', 'single'],
     }
   },
 );
