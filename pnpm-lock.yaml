@@ -18,8 +18,8 @@ importers:
         specifier: ^4.3.3
         version: 4.3.3(solid-js@1.9.7)
       '@vercel/functions':
-        specifier: ^2.2.6
-        version: 2.2.6
+        specifier: ^2.2.7
+        version: 2.2.7
       cookie:
         specifier: ^1.0.2
         version: 1.0.2
@@ -1139,8 +1139,8 @@ packages:
     resolution: {integrity: sha512-xDiM+bD0fSZyzcjsAua3D+guXclvHOSTzr03UcZEQwYzIjwWjLduT7bl2gAaeNIe7fASAIZd0P00clcj0On4rQ==}
     engines: {node: '>= 18'}
 
-  '@vercel/functions@2.2.6':
-    resolution: {integrity: sha512-8XOcBYvXiDLSNlchIl/kMItLI1lrK0iBSc12uG87Tr5oKsFQf/rRHxmJWQOs0OiuzqD2ekDy9PcQLA3ZFOiDqg==}
+  '@vercel/functions@2.2.7':
+    resolution: {integrity: sha512-3GzufulXUykEqB4/LdQEHuRLlOPqE6XK36gmr85BwBvm9zwkrrOcb8NTtXjUIRfxJRz+Yk4YBSa8Bo84foYXdA==}
     engines: {node: '>= 18'}
     peerDependencies:
       '@aws-sdk/credential-provider-web-identity': '*'
@@ -4100,7 +4100,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@vercel/functions@2.2.6':
+  '@vercel/functions@2.2.7':
     dependencies:
       '@vercel/oidc': 2.0.0
 

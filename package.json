@@ -39,7 +39,7 @@
     "@octokit/core": "^7.0.3",
     "@octokit/plugin-paginate-rest": "^13.1.1",
     "@solid-primitives/storage": "^4.3.3",
-    "@vercel/functions": "^2.2.6",
+    "@vercel/functions": "^2.2.7",
     "cookie": "^1.0.2",
     "solid-js": "^1.9.7"
   },
