@@ -18,8 +18,8 @@ importers:
         specifier: ^4.3.3
         version: 4.3.3(solid-js@1.9.9)
       '@vercel/functions':
-        specifier: ^3.1.0
-        version: 3.1.0
+        specifier: ^3.1.1
+        version: 3.1.1
       cookie:
         specifier: ^1.0.2
         version: 1.0.2
@@ -43,8 +43,8 @@ importers:
         specifier: ^4.1.14
         version: 4.1.14
       '@types/node':
-        specifier: ^24.6.1
-        version: 24.6.1
+        specifier: ^24.6.2
+        version: 24.6.2
       autoprefixer:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.6)
@@ -70,8 +70,8 @@ importers:
         specifier: ^0.14.5
         version: 0.14.5(eslint@9.36.0(jiti@2.6.1))(typescript@5.9.3)
       pnpm:
-        specifier: ^10.17.1
-        version: 10.17.1
+        specifier: ^10.18.0
+        version: 10.18.0
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
@@ -85,17 +85,17 @@ importers:
         specifier: ^8.45.0
         version: 8.45.0(eslint@9.36.0(jiti@2.6.1))(typescript@5.9.3)
       vercel:
-        specifier: ^48.1.6
-        version: 48.1.6(rollup@4.52.3)
+        specifier: ^48.1.7
+        version: 48.1.7(rollup@4.52.3)
       vite:
-        specifier: ^7.1.7
-        version: 7.1.7(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)
+        specifier: ^7.1.8
+        version: 7.1.8(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)
       vite-plugin-solid:
         specifier: ^2.11.9
-        version: 2.11.9(solid-js@1.9.9)(vite@7.1.7(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1))
+        version: 2.11.9(solid-js@1.9.9)(vite@7.1.8(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1))
       vite-plugin-vercel:
         specifier: ^9.0.7
-        version: 9.0.7(rollup@4.52.3)(vite@7.1.7(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1))
+        version: 9.0.7(rollup@4.52.3)(vite@7.1.8(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1))
 
 packages:
 
@@ -1054,14 +1054,11 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/ms@2.1.0':
-    resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
-
   '@types/node@16.18.11':
     resolution: {integrity: sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==}
 
-  '@types/node@24.6.1':
-    resolution: {integrity: sha512-ljvjjs3DNXummeIaooB4cLBKg2U6SPI6Hjra/9rRIy7CpM0HpLtG9HptkMKAb4HYWy5S7HUvJEuWgr/y0U8SHw==}
+  '@types/node@24.6.2':
+    resolution: {integrity: sha512-d2L25Y4j+W3ZlNAeMKcy7yDsK425ibcAOO2t7aPTz6gNMH0z2GThtwENCDc0d/Pw9wgyRqE5Px1wkV7naz8ang==}
 
   '@typescript-eslint/eslint-plugin@8.45.0':
     resolution: {integrity: sha512-HC3y9CVuevvWCl/oyZuI47dOeDF9ztdMEfMH8/DW/Mhwa9cCLnK1oD7JoTVGW/u7kFzNZUKUoyJEqkaJh5y3Wg==}
@@ -1241,8 +1238,8 @@ packages:
     resolution: {integrity: sha512-xDiM+bD0fSZyzcjsAua3D+guXclvHOSTzr03UcZEQwYzIjwWjLduT7bl2gAaeNIe7fASAIZd0P00clcj0On4rQ==}
     engines: {node: '>= 18'}
 
-  '@vercel/functions@3.1.0':
-    resolution: {integrity: sha512-V+p8dO+sg1VjiJJUO5rYPp1KG17SzDcR74OWwW7Euyde6L8U5wuTMe9QfEOfLTiWPUPzN1MXZvLcYxqSYhKc4Q==}
+  '@vercel/functions@3.1.1':
+    resolution: {integrity: sha512-pMum41m6DtMGWZuCPy99mCE40shLvoxawOhetkTGq/HslY7J7weMOV+TeWcfWO6acDabDqDcb6bapWBQ+tNA3w==}
     engines: {node: '>= 20'}
     peerDependencies:
       '@aws-sdk/credential-provider-web-identity': '*'
@@ -1284,12 +1281,12 @@ packages:
   '@vercel/node@5.3.24':
     resolution: {integrity: sha512-yk8pdoNbAbUO5zcmqyMPQ6kNvN896c/gJbsiGS5RvO9Gyehib5IxUOap6SnLSExH4tWAl1XTbOptfuysqZpYog==}
 
-  '@vercel/oidc@3.0.0':
-    resolution: {integrity: sha512-XOoUcf/1VfGArUAfq0ELxk6TD7l4jGcrOsWjQibj4wYM74uNihzZ9gA46ywWegoqKWWdph4y5CKxGI9823deoA==}
+  '@vercel/oidc@3.0.1':
+    resolution: {integrity: sha512-V/YRVrJDqM6VaMBjRUrd6qRMrTKvZjHdVdEmdXsOZMulTa3iK98ijKTc3wldBmst6W5rHpqMoKllKcBAHgN7GQ==}
     engines: {node: '>= 20'}
 
-  '@vercel/python@5.0.5':
-    resolution: {integrity: sha512-XLG/fDe2hflzNtSWuoASTo+N2c4hl6SbcufvBRYa7BnBQK9t4ZH1IEu+vJkq2AUoVczp5JEYLEXkIGm8KBtoeg==}
+  '@vercel/python@5.0.6':
+    resolution: {integrity: sha512-JWOpsoZu4XvOcKnPt7ytOiJOSeY74vWK68TLN87RJM/uHf9MnPVB9wiuj7EzB+jyZbeO7aY9Kycy6zW4tAdAwA==}
 
   '@vercel/redwood@2.3.6':
     resolution: {integrity: sha512-Rm9xECWNIJOwtPsZ1/XcgyJj95KM7cWwNHYPMw8dzFAnLQGyapGe/YHEjxV6POI2RF8R0nFmU1t+45XBweYJJA==}
@@ -1640,8 +1637,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  electron-to-chromium@1.5.228:
-    resolution: {integrity: sha512-nxkiyuqAn4MJ1QbobwqJILiDtu/jk14hEAWaMiJmNPh1Z+jqoFlBFZjdXwLWGeVSeu9hGLg6+2G9yJaW8rBIFA==}
+  electron-to-chromium@1.5.229:
+    resolution: {integrity: sha512-cwhDcZKGcT/rEthLRJ9eBlMDkh1sorgsuk+6dpsehV0g9CABsIqBxU4rLRjG+d/U6pYU1s37A4lSKrVc5lSQYg==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2754,8 +2751,8 @@ packages:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
-  pnpm@10.17.1:
-    resolution: {integrity: sha512-F8Vg/KSGeulHOjiZrYSogzSRTzeb5G1FXL+S5c9LOdNJhdRS0lg7rxmWf6dstcF7yeJFUp0LmHRXIapyAOyveg==}
+  pnpm@10.18.0:
+    resolution: {integrity: sha512-6AT4ifHOzEDVctsITuw+SIFzn43sacD/ENLRvv+aTjCTg7ontbdQBZ1/TBSVNbbNDSyx7Trrc5I5pChKaPQM+g==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2999,8 +2996,8 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  style-to-object@1.0.9:
-    resolution: {integrity: sha512-G4qppLgKu/k6FwRpHiGiKPaPTFcG3g4wNVX/Qsfu+RqQM30E7Tyu/TEgxcL9PNLF5pdRLwQdE3YKKf+KF2Dzlw==}
+  style-to-object@1.0.10:
+    resolution: {integrity: sha512-dt5eKBgPL+13RJ7EWQTMu+PFEW7pfz6xaqWTfKo5LUyAfSW57ELDPSdRZ4MmFvXbZLDB3iTrdhxP/Irsp4ZRLQ==}
 
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
@@ -3013,8 +3010,8 @@ packages:
   tailwindcss@4.1.14:
     resolution: {integrity: sha512-b7pCxjGO98LnxVkKjaZSDeNuljC4ueKUddjENJOADtubtdo8llTaJy7HwBMeLNSSo2N5QIAgklslK1+Ir8r6CA==}
 
-  tapable@2.2.3:
-    resolution: {integrity: sha512-ZL6DDuAlRlLGghwcfmSn9sK3Hr6ArtyudlSAiCqQ6IfE+b+HHbydbYDIG15IfS5do+7XQQBdBiubF/cV2dnDzg==}
+  tapable@2.3.0:
+    resolution: {integrity: sha512-g9ljZiwki/LfxmQADO3dEY1CbpmXT5Hm2fJ+QaGKwSXUylMybePR7/67YW7jOrrvjEgL1Fmz5kzyAjWVWLlucg==}
     engines: {node: '>=6'}
 
   tar@6.2.1:
@@ -3171,8 +3168,8 @@ packages:
   validate-html-nesting@1.2.3:
     resolution: {integrity: sha512-kdkWdCl6eCeLlRShJKbjVOU2kFKxMF8Ghu50n+crEoyx+VKm3FxAxF9z4DCy6+bbTOqNW0+jcIYRnjoIRzigRw==}
 
-  vercel@48.1.6:
-    resolution: {integrity: sha512-bcfocpaHfG0FHpTdY59Pfgm26cznI7+9KhGAnVkv4pU+oM6Ggc+w/nnsjuS5EY+/v3vI3f8cYamE6DDqQ3CpEQ==}
+  vercel@48.1.7:
+    resolution: {integrity: sha512-X9FexPHqnaV5KpNejtRnEjmkD5iBXFuQ+H6ijNwA7l0HG7emorMxStQ+122knyXkImGRX5Xb/hWeGp+MZBr5dg==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -3198,8 +3195,8 @@ packages:
       vike:
         optional: true
 
-  vite@7.1.7:
-    resolution: {integrity: sha512-VbA8ScMvAISJNJVbRDTJdCwqQoAareR/wutevKanhR2/1EkoXVZVkkORaYm/tNVCjP/UDTKtcw3bAkwOUdedmA==}
+  vite@7.1.8:
+    resolution: {integrity: sha512-oBXvfSHEOL8jF+R9Am7h59Up07kVVGH1NrFGFoEG6bPDZP3tGpQhvkBpy5x7U6+E6wZCu9OihsWgJqDbQIm8LQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -4106,11 +4103,9 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/ms@2.1.0': {}
-
   '@types/node@16.18.11': {}
 
-  '@types/node@24.6.1':
+  '@types/node@24.6.2':
     dependencies:
       undici-types: 7.13.0
 
@@ -4323,9 +4318,9 @@ snapshots:
       - encoding
       - supports-color
 
-  '@vercel/functions@3.1.0':
+  '@vercel/functions@3.1.1':
     dependencies:
-      '@vercel/oidc': 3.0.0
+      '@vercel/oidc': 3.0.1
 
   '@vercel/gatsby-plugin-vercel-analytics@1.0.11':
     dependencies:
@@ -4446,12 +4441,9 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/oidc@3.0.0':
-    dependencies:
-      '@types/ms': 2.1.0
-      ms: 2.1.3
+  '@vercel/oidc@3.0.1': {}
 
-  '@vercel/python@5.0.5': {}
+  '@vercel/python@5.0.6': {}
 
   '@vercel/redwood@2.3.6(rollup@4.52.3)':
     dependencies:
@@ -4672,7 +4664,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.8.10
       caniuse-lite: 1.0.30001746
-      electron-to-chromium: 1.5.228
+      electron-to-chromium: 1.5.229
       node-releases: 2.0.21
       update-browserslist-db: 1.1.3(browserslist@4.26.3)
 
@@ -4822,7 +4814,7 @@ snapshots:
       signal-exit: 4.0.2
       time-span: 4.0.0
 
-  electron-to-chromium@1.5.228: {}
+  electron-to-chromium@1.5.229: {}
 
   emoji-regex@8.0.0: {}
 
@@ -4835,7 +4827,7 @@ snapshots:
   enhanced-resolve@5.18.3:
     dependencies:
       graceful-fs: 4.2.11
-      tapable: 2.2.3
+      tapable: 2.3.0
 
   entities@6.0.1: {}
 
@@ -5174,7 +5166,7 @@ snapshots:
       is-html: 2.0.0
       kebab-case: 1.0.2
       known-css-properties: 0.30.0
-      style-to-object: 1.0.9
+      style-to-object: 1.0.10
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
@@ -5963,7 +5955,7 @@ snapshots:
 
   picomatch@4.0.3: {}
 
-  pnpm@10.17.1: {}
+  pnpm@10.18.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
@@ -6270,7 +6262,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  style-to-object@1.0.9:
+  style-to-object@1.0.10:
     dependencies:
       inline-style-parser: 0.2.4
 
@@ -6282,7 +6274,7 @@ snapshots:
 
   tailwindcss@4.1.14: {}
 
-  tapable@2.2.3: {}
+  tapable@2.3.0: {}
 
   tar@6.2.1:
     dependencies:
@@ -6478,7 +6470,7 @@ snapshots:
 
   validate-html-nesting@1.2.3: {}
 
-  vercel@48.1.6(rollup@4.52.3):
+  vercel@48.1.7(rollup@4.52.3):
     dependencies:
       '@vercel/blob': 1.0.2
       '@vercel/build-utils': 12.1.0
@@ -6491,7 +6483,7 @@ snapshots:
       '@vercel/hydrogen': 1.2.4
       '@vercel/next': 4.13.0(rollup@4.52.3)
       '@vercel/node': 5.3.24(rollup@4.52.3)
-      '@vercel/python': 5.0.5
+      '@vercel/python': 5.0.6
       '@vercel/redwood': 2.3.6(rollup@4.52.3)
       '@vercel/remix-builder': 5.4.12(rollup@4.52.3)
       '@vercel/ruby': 2.2.1
@@ -6505,7 +6497,7 @@ snapshots:
       - rollup
       - supports-color
 
-  vite-plugin-solid@2.11.9(solid-js@1.9.9)(vite@7.1.7(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)):
+  vite-plugin-solid@2.11.9(solid-js@1.9.9)(vite@7.1.8(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)):
     dependencies:
       '@babel/core': 7.28.4
       '@types/babel__core': 7.20.5
@@ -6513,12 +6505,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.9
       solid-refresh: 0.6.3(solid-js@1.9.9)
-      vite: 7.1.7(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)
-      vitefu: 1.1.1(vite@7.1.7(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1))
+      vite: 7.1.8(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)
+      vitefu: 1.1.1(vite@7.1.8(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1))
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-vercel@9.0.7(rollup@4.52.3)(vite@7.1.7(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)):
+  vite-plugin-vercel@9.0.7(rollup@4.52.3)(vite@7.1.8(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)):
     dependencies:
       '@brillout/libassert': 0.5.8
       '@manypkg/find-root': 2.2.3
@@ -6528,14 +6520,14 @@ snapshots:
       esbuild: 0.24.2
       fast-glob: 3.3.3
       magicast: 0.3.5
-      vite: 7.1.7(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)
+      vite: 7.1.8(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)
       zod: 3.25.76
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  vite@7.1.7(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1):
+  vite@7.1.8(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1):
     dependencies:
       esbuild: 0.25.10
       fdir: 6.5.0(picomatch@4.0.3)
@@ -6544,14 +6536,14 @@ snapshots:
       rollup: 4.52.3
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       fsevents: 2.3.3
       jiti: 2.6.1
       lightningcss: 1.30.1
 
-  vitefu@1.1.1(vite@7.1.7(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)):
+  vitefu@1.1.1(vite@7.1.8(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)):
     optionalDependencies:
-      vite: 7.1.7(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)
+      vite: 7.1.8(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)
 
   web-vitals@0.2.4: {}
 
