@@ -1238,10 +1238,6 @@ packages:
       eslint: ^8.57.0 || ^9.0.0
       typescript: '>=4.8.4 <6.0.0'
 
-  '@typescript-eslint/types@8.46.3':
-    resolution: {integrity: sha512-G7Ok9WN/ggW7e/tOf8TQYMaxgID3Iujn231hfi0Pc7ZheztIJVpO44ekY00b7akqc6nZcvregk0Jpah3kep6hA==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
   '@typescript-eslint/types@8.46.4':
     resolution: {integrity: sha512-USjyxm3gQEePdUwJBFjjGNG18xY9A2grDVGuk7/9AkjIF1L+ZrVnwR5VAU5JXtUnBL/Nwt3H31KlRDaksnM7/w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -1603,8 +1599,8 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  baseline-browser-mapping@2.8.25:
-    resolution: {integrity: sha512-2NovHVesVF5TXefsGX1yzx1xgr7+m9JQenvz6FQY3qd+YXkKkYiv+vTCc7OriP9mcDZpTC5mAOYN4ocd29+erA==}
+  baseline-browser-mapping@2.8.26:
+    resolution: {integrity: sha512-73lC1ugzwoaWCLJ1LvOgrR5xsMLTqSKIEoMHVtL9E/HNk0PXtTM76ZIm84856/SF7Nv8mPZxKoBsgpm0tR1u1Q==}
     hasBin: true
 
   before-after-hook@4.0.0:
@@ -1799,8 +1795,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  electron-to-chromium@1.5.249:
-    resolution: {integrity: sha512-5vcfL3BBe++qZ5kuFhD/p8WOM1N9m3nwvJPULJx+4xf2usSlZFJ0qoNYO2fOX4hi3ocuDcmDobtA+5SFr4OmBg==}
+  electron-to-chromium@1.5.250:
+    resolution: {integrity: sha512-/5UMj9IiGDMOFBnN4i7/Ry5onJrAGSbOGo3s9FEKmwobGq6xw832ccET0CE3CkkMBZ8GJSlUIesZofpyurqDXw==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -4252,7 +4248,7 @@ snapshots:
   '@stylistic/eslint-plugin@5.5.0(eslint@9.39.1(jiti@2.6.1))':
     dependencies:
       '@eslint-community/eslint-utils': 4.9.0(eslint@9.39.1(jiti@2.6.1))
-      '@typescript-eslint/types': 8.46.3
+      '@typescript-eslint/types': 8.46.4
       eslint: 9.39.1(jiti@2.6.1)
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
@@ -4441,8 +4437,6 @@ snapshots:
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
-
-  '@typescript-eslint/types@8.46.3': {}
 
   '@typescript-eslint/types@8.46.4': {}
 
@@ -4968,7 +4962,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  baseline-browser-mapping@2.8.25: {}
+  baseline-browser-mapping@2.8.26: {}
 
   before-after-hook@4.0.0: {}
 
@@ -4991,9 +4985,9 @@ snapshots:
 
   browserslist@4.28.0:
     dependencies:
-      baseline-browser-mapping: 2.8.25
+      baseline-browser-mapping: 2.8.26
       caniuse-lite: 1.0.30001754
-      electron-to-chromium: 1.5.249
+      electron-to-chromium: 1.5.250
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.28.0)
 
@@ -5145,7 +5139,7 @@ snapshots:
       signal-exit: 4.0.2
       time-span: 4.0.0
 
-  electron-to-chromium@1.5.249: {}
+  electron-to-chromium@1.5.250: {}
 
   emoji-regex@8.0.0: {}
 
