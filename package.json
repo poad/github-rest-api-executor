@@ -44,5 +44,5 @@
     "solid-js": "^1.9.10"
   },
   "license": "MIT",
-  "packageManager": "pnpm@10.21.0"
+  "packageManager": "pnpm@10.22.0"
 }
