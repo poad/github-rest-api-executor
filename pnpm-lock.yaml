@@ -50,11 +50,11 @@ importers:
         specifier: ^4.1.18
         version: 4.1.18
       '@types/node':
-        specifier: ^25.0.1
-        version: 25.0.1
+        specifier: ^25.0.2
+        version: 25.0.2
       autoprefixer:
-        specifier: ^10.4.22
-        version: 10.4.22(postcss@8.5.6)
+        specifier: ^10.4.23
+        version: 10.4.23(postcss@8.5.6)
       dotenv:
         specifier: ^17.2.3
         version: 17.2.3
@@ -92,17 +92,17 @@ importers:
         specifier: ^8.49.0
         version: 8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       vercel:
-        specifier: ^49.2.0
-        version: 49.2.0(rollup@4.53.3)(typescript@5.9.3)
+        specifier: ^50.0.1
+        version: 50.0.1(rollup@4.53.3)(typescript@5.9.3)
       vite:
         specifier: ^7.2.7
-        version: 7.2.7(@types/node@25.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)
+        version: 7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)
       vite-plugin-solid:
         specifier: ^2.11.10
-        version: 2.11.10(solid-js@1.9.10)(vite@7.2.7(@types/node@25.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2))
+        version: 2.11.10(solid-js@1.9.10)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2))
       vite-plugin-vercel:
         specifier: ^9.0.8
-        version: 9.0.8(rollup@4.53.3)(vite@7.2.7(@types/node@25.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2))
+        version: 9.0.8(rollup@4.53.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2))
 
 packages:
 
@@ -1318,8 +1318,8 @@ packages:
   '@types/node@16.18.11':
     resolution: {integrity: sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==}
 
-  '@types/node@25.0.1':
-    resolution: {integrity: sha512-czWPzKIAXucn9PtsttxmumiQ9N0ok9FrBwgRWrwmVLlp86BrMExzvXRLFYRJ+Ex3g6yqj+KuaxfX1JTgV2lpfg==}
+  '@types/node@25.0.2':
+    resolution: {integrity: sha512-gWEkeiyYE4vqjON/+Obqcoeffmk0NF15WSBwSs7zwVA2bAbTaE0SJ7P0WNGoJn8uE7fiaV5a7dKYIJriEqOrmA==}
 
   '@typescript-eslint/eslint-plugin@8.49.0':
     resolution: {integrity: sha512-JXij0vzIaTtCwu6SxTh8qBc66kmf1xs7pI4UOiMDFVct6q86G0Zs7KRcEoJgY3Cav3x5Tq0MF5jwgpgLqgKG3A==}
@@ -1498,17 +1498,17 @@ packages:
     resolution: {integrity: sha512-AIPgNkmtFcDgPCl+xvTT1ga90OL7OTX2RKM4zu0PMpwBthPfN2DpdHy10n3bh8K+CA22GDU0/ncjzprZsrk0sw==}
     engines: {node: '>=14'}
 
-  '@vercel/elysia@0.1.13':
-    resolution: {integrity: sha512-rNmS4Pfg1ku38GNx9vW9lItL1Zkzoyd0aN2wjy1iXqbM2ElKzOWAa2nwqqWpXMwU5552paWdvl+JQ94M5Wyibw==}
+  '@vercel/elysia@0.1.14':
+    resolution: {integrity: sha512-k5ztT5vlN/4J2VKzSQJKSOpefIP2yNzLIrNsdQOIcp6pCdelDjIfnj3UBWJ3pDPmYC8ODCJVRc+NngjLiv3OHQ==}
 
   '@vercel/error-utils@2.0.3':
     resolution: {integrity: sha512-CqC01WZxbLUxoiVdh9B/poPbNpY9U+tO1N9oWHwTl5YAZxcqXmmWJ8KNMFItJCUUWdY3J3xv8LvAuQv2KZ5YdQ==}
 
-  '@vercel/express@0.1.19':
-    resolution: {integrity: sha512-7Iu/plYGHWHHhjpkRfNxUVlhNYaMuWUPLcqvDgp5G91slcC0tJHQwsrmVM8ApIcKUYSdoEeZC2dKdNf0CPN4Rw==}
+  '@vercel/express@0.1.20':
+    resolution: {integrity: sha512-B9jLqeFW3gCkpoqUjW4jILRRozB2gTqiHxVX+GefLFXP4TyOy3v2xvJkFt1rrxem0JDy2zltaJVpZ3qJ6lIo1Q==}
 
-  '@vercel/fastify@0.1.16':
-    resolution: {integrity: sha512-TObjtMcWmXAIU/uz4tfgp9X37LRbnsHoZfoIckQySjuEKUR3BIXMWZHbdJWjw5HsO7RCP0ZNqrqql/IrxMMuVg==}
+  '@vercel/fastify@0.1.17':
+    resolution: {integrity: sha512-CsGPVRWv/e4ImP7RXfdCku0AvqKr0gFam5/tYHwJVPPVgnpE8Gi0YvP/xszLTlYPGtfs3ZO8xnLB3zf0gIq64w==}
 
   '@vercel/fun@1.2.0':
     resolution: {integrity: sha512-WSmS9qe2R+5roucDEwYB3atKhs9sUbkHV3laJGEUoqz25O83jLE/jqg/B/3yTunB0av1xqiCIBFFVKnXsqSc8w==}
@@ -1532,11 +1532,11 @@ packages:
   '@vercel/go@3.2.4':
     resolution: {integrity: sha512-160JJuGJmBsu391lhiICFNZ4k5e3h7IUvnfXAzC1/W3ImpgDNWbR+pDcasZ1hs6xxtMzhHkO8CB94wZCgWibDA==}
 
-  '@vercel/h3@0.1.22':
-    resolution: {integrity: sha512-BHCjoxL6N2loYjbTAXgqf21NM0m1ygbBiz8fhPQeyxzrUGDNIN3pC6GOv4LsOi7qihKs1iL8NSo5uPKDr2Cf9g==}
+  '@vercel/h3@0.1.23':
+    resolution: {integrity: sha512-d+7Jw7OrHNSIoLOjqA8CFi/men6cZ+BRMqZI+EB/5gNMnqN7due3xybOek6kFLQ5EuQn5IN60aUNOzAbz8M5Vg==}
 
-  '@vercel/hono@0.2.16':
-    resolution: {integrity: sha512-FKWCNLm+qzJBLxwHTiJGE/syvIhfozdQcPuC07pBnAEMXHnY7FSYLa56FawtkLx75LE2q3N7e8AywxQU+sndQA==}
+  '@vercel/hono@0.2.17':
+    resolution: {integrity: sha512-aW9wX5mcC3JnKehvD6AhmHMhSJgg0U7CncN1WjhI40qqB8A/vJAlnGfW5Fph1ogl0CRz614qmoYuIMO8ycOHGQ==}
 
   '@vercel/hydrogen@1.3.3':
     resolution: {integrity: sha512-SCyAtjLCEvKbXgac/u42AVNcIE0/GdNe1dvTP/SV6qSUPo/5od9jlry+U55OdlUr9LRqCopehTrN5SxnmrderQ==}
@@ -1544,8 +1544,8 @@ packages:
   '@vercel/introspection@0.0.7':
     resolution: {integrity: sha512-8JjxYqUsdxHaExbUANvGftAJeRTxVGYwTmaV9KcOA+C3SVvYSUertnQeTgKiau0Fc2cHmxh9e0poLxs2N3gZ2A==}
 
-  '@vercel/nestjs@0.2.17':
-    resolution: {integrity: sha512-ZeR1Ins4Jhttc5Jehj4+Hna4Znb+JmdhTB6yn9ROwuKzgcqw+qu0jk7nbA1HysHHgrgFNJSV54rDmmOEZ8Ix7g==}
+  '@vercel/nestjs@0.2.18':
+    resolution: {integrity: sha512-3Jvgx/2XxBvB/P/YE/6/Xzt5LjPg9AmiTMVka+ht+iPkFWQrPC1ClbKvUj/fJgquG3Y9s58lDgHSEOUCzYQl9g==}
 
   '@vercel/next@4.15.8':
     resolution: {integrity: sha512-yxAidtaMOTUHLDcPz7TjeG8osGHN2842+RkoZA6+mZ52UaxVo6gY8TMk6GFOj4x+IPkj1I0HXdeIzdepDa0VyA==}
@@ -1567,8 +1567,8 @@ packages:
     resolution: {integrity: sha512-fnYhv671l+eTTp48gB4zEsTW/YtRgRPnkI2nT7x6qw5rkI1Lq2hTmQIpHPgyThI0znLK+vX2n9XxKdXZ7BUbbw==}
     engines: {node: '>= 20'}
 
-  '@vercel/python@6.1.2':
-    resolution: {integrity: sha512-R9IKr7G1tlgxwpGZH/24mhIlsEy81K49KyRds2f7h39lZMeew3IBjYKH8T+lEcEpUTTilSe+w3U0Lga/bF1bjg==}
+  '@vercel/python@6.1.3':
+    resolution: {integrity: sha512-zBq7kWF0np03z+0wX5XnoEPG4yTCuTwrN/ZozCNjso1iOTQQo8YwcrccjR71+STmFjX5xZ3DoAZoAxpJa80WYg==}
 
   '@vercel/redwood@2.4.6':
     resolution: {integrity: sha512-lJgRENm7yZHvSMiGTFXd/x1Asz6MTFACfJHHMDThNL2hESvpbrOpp27t/NfNMCrV7TUEedHOE1fNIogy704S0Q==}
@@ -1689,8 +1689,8 @@ packages:
   async-sema@3.1.1:
     resolution: {integrity: sha512-tLRNUXati5MFePdAk8dw7Qt7DpxPB60ofAgn8WRhW6a2rcimZnYBP9oxHiv0OHy+Wz7kPMG+t4LGdt31+4EmGg==}
 
-  autoprefixer@10.4.22:
-    resolution: {integrity: sha512-ARe0v/t9gO28Bznv6GgqARmVqcWOV3mfgUPn9becPHMiD3o9BwlRgaeccZnwTpZ7Zwqrm+c1sUSsMxIzQzc8Xg==}
+  autoprefixer@10.4.23:
+    resolution: {integrity: sha512-YYTXSFulfwytnjAPlw8QHncHJmlvFKtczb8InXaAx9Q0LbfDnfEYDE55omerIJKihhmU61Ft+cAOSzQVaBUmeA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -2797,10 +2797,6 @@ packages:
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
 
-  normalize-range@0.1.2:
-    resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
-    engines: {node: '>=0.10.0'}
-
   npm-run-path@4.0.1:
     resolution: {integrity: sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==}
     engines: {node: '>=8'}
@@ -3350,8 +3346,8 @@ packages:
   v8-compile-cache-lib@3.0.1:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
 
-  vercel@49.2.0:
-    resolution: {integrity: sha512-bjYqkH4g4JadNjltoJGZPRqtQdivHDkE7R3Kasu/UlY7sSj5iYzJAZjBl+cuBT7Q1aDTKRJgp/3HmBFZLYeVWQ==}
+  vercel@50.0.1:
+    resolution: {integrity: sha512-M4RBfqb6r9Xwz4TFedxaZOM+LhL3vAxTug3bYlLjVzoga01AqEd3mgWeI7kQmsxhCBUMViJrZ9oIls472jGNMA==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -4418,7 +4414,7 @@ snapshots:
 
   '@types/node@16.18.11': {}
 
-  '@types/node@25.0.1':
+  '@types/node@25.0.2':
     dependencies:
       undici-types: 7.16.0
 
@@ -4608,7 +4604,7 @@ snapshots:
 
   '@vercel/detect-agent@1.0.0': {}
 
-  '@vercel/elysia@0.1.13(rollup@4.53.3)':
+  '@vercel/elysia@0.1.14(rollup@4.53.3)':
     dependencies:
       '@vercel/node': 5.5.15(rollup@4.53.3)
       '@vercel/static-config': 3.1.2
@@ -4621,7 +4617,7 @@ snapshots:
 
   '@vercel/error-utils@2.0.3': {}
 
-  '@vercel/express@0.1.19(rollup@4.53.3)(typescript@5.9.3)':
+  '@vercel/express@0.1.20(rollup@4.53.3)(typescript@5.9.3)':
     dependencies:
       '@vercel/cervel': 0.0.7(typescript@5.9.3)
       '@vercel/nft': 1.1.1(rollup@4.53.3)
@@ -4640,7 +4636,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@vercel/fastify@0.1.16(rollup@4.53.3)':
+  '@vercel/fastify@0.1.17(rollup@4.53.3)':
     dependencies:
       '@vercel/node': 5.5.15(rollup@4.53.3)
       '@vercel/static-config': 3.1.2
@@ -4693,7 +4689,7 @@ snapshots:
 
   '@vercel/go@3.2.4': {}
 
-  '@vercel/h3@0.1.22(rollup@4.53.3)':
+  '@vercel/h3@0.1.23(rollup@4.53.3)':
     dependencies:
       '@vercel/node': 5.5.15(rollup@4.53.3)
       '@vercel/static-config': 3.1.2
@@ -4704,7 +4700,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/hono@0.2.16(rollup@4.53.3)':
+  '@vercel/hono@0.2.17(rollup@4.53.3)':
     dependencies:
       '@vercel/nft': 1.1.1(rollup@4.53.3)
       '@vercel/node': 5.5.15(rollup@4.53.3)
@@ -4731,7 +4727,7 @@ snapshots:
       path-to-regexp: 8.3.0
       zod: 3.22.4
 
-  '@vercel/nestjs@0.2.17(rollup@4.53.3)':
+  '@vercel/nestjs@0.2.18(rollup@4.53.3)':
     dependencies:
       '@vercel/node': 5.5.15(rollup@4.53.3)
       '@vercel/static-config': 3.1.2
@@ -4822,7 +4818,7 @@ snapshots:
 
   '@vercel/oidc@3.0.5': {}
 
-  '@vercel/python@6.1.2': {}
+  '@vercel/python@6.1.3': {}
 
   '@vercel/redwood@2.4.6(rollup@4.53.3)':
     dependencies:
@@ -4985,12 +4981,11 @@ snapshots:
 
   async-sema@3.1.1: {}
 
-  autoprefixer@10.4.22(postcss@8.5.6):
+  autoprefixer@10.4.23(postcss@8.5.6):
     dependencies:
       browserslist: 4.28.1
       caniuse-lite: 1.0.30001760
       fraction.js: 5.3.4
-      normalize-range: 0.1.2
       picocolors: 1.1.1
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
@@ -6191,8 +6186,6 @@ snapshots:
     dependencies:
       abbrev: 3.0.1
 
-  normalize-range@0.1.2: {}
-
   npm-run-path@4.0.1:
     dependencies:
       path-key: 3.1.1
@@ -6847,24 +6840,24 @@ snapshots:
 
   v8-compile-cache-lib@3.0.1: {}
 
-  vercel@49.2.0(rollup@4.53.3)(typescript@5.9.3):
+  vercel@50.0.1(rollup@4.53.3)(typescript@5.9.3):
     dependencies:
       '@vercel/backends': 0.0.17(rollup@4.53.3)(typescript@5.9.3)
       '@vercel/blob': 1.0.2
       '@vercel/build-utils': 13.2.3
       '@vercel/detect-agent': 1.0.0
-      '@vercel/elysia': 0.1.13(rollup@4.53.3)
-      '@vercel/express': 0.1.19(rollup@4.53.3)(typescript@5.9.3)
-      '@vercel/fastify': 0.1.16(rollup@4.53.3)
+      '@vercel/elysia': 0.1.14(rollup@4.53.3)
+      '@vercel/express': 0.1.20(rollup@4.53.3)(typescript@5.9.3)
+      '@vercel/fastify': 0.1.17(rollup@4.53.3)
       '@vercel/fun': 1.2.0
       '@vercel/go': 3.2.4
-      '@vercel/h3': 0.1.22(rollup@4.53.3)
-      '@vercel/hono': 0.2.16(rollup@4.53.3)
+      '@vercel/h3': 0.1.23(rollup@4.53.3)
+      '@vercel/hono': 0.2.17(rollup@4.53.3)
       '@vercel/hydrogen': 1.3.3
-      '@vercel/nestjs': 0.2.17(rollup@4.53.3)
+      '@vercel/nestjs': 0.2.18(rollup@4.53.3)
       '@vercel/next': 4.15.8(rollup@4.53.3)
       '@vercel/node': 5.5.15(rollup@4.53.3)
-      '@vercel/python': 6.1.2
+      '@vercel/python': 6.1.3
       '@vercel/redwood': 2.4.6(rollup@4.53.3)
       '@vercel/remix-builder': 5.5.6(rollup@4.53.3)
       '@vercel/ruby': 2.2.3
@@ -6881,7 +6874,7 @@ snapshots:
       - supports-color
       - typescript
 
-  vite-plugin-solid@2.11.10(solid-js@1.9.10)(vite@7.2.7(@types/node@25.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)):
+  vite-plugin-solid@2.11.10(solid-js@1.9.10)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)):
     dependencies:
       '@babel/core': 7.28.5
       '@types/babel__core': 7.20.5
@@ -6889,12 +6882,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.10
       solid-refresh: 0.6.3(solid-js@1.9.10)
-      vite: 7.2.7(@types/node@25.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)
-      vitefu: 1.1.1(vite@7.2.7(@types/node@25.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2))
+      vite: 7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)
+      vitefu: 1.1.1(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2))
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-vercel@9.0.8(rollup@4.53.3)(vite@7.2.7(@types/node@25.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)):
+  vite-plugin-vercel@9.0.8(rollup@4.53.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)):
     dependencies:
       '@brillout/libassert': 0.5.8
       '@manypkg/find-root': 2.2.3
@@ -6904,14 +6897,14 @@ snapshots:
       esbuild: 0.27.1
       fast-glob: 3.3.3
       magicast: 0.3.5
-      vite: 7.2.7(@types/node@25.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)
+      vite: 7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)
       zod: 3.25.76
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  vite@7.2.7(@types/node@25.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2):
+  vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
@@ -6920,15 +6913,15 @@ snapshots:
       rollup: 4.53.3
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 25.0.1
+      '@types/node': 25.0.2
       fsevents: 2.3.3
       jiti: 2.6.1
       lightningcss: 1.30.2
       tsx: 4.19.2
 
-  vitefu@1.1.1(vite@7.2.7(@types/node@25.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)):
+  vitefu@1.1.1(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)):
     optionalDependencies:
-      vite: 7.2.7(@types/node@25.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)
+      vite: 7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.19.2)
 
   web-vitals@0.2.4: {}
 
