@@ -51,7 +51,7 @@ importers:
         specifier: ^4.1.18
         version: 4.1.18
       '@types/node':
-        specifier: ^24.10.4
+        specifier: ^24.10.8
         version: 24.10.8
       autoprefixer:
         specifier: ^10.4.23
@@ -93,8 +93,8 @@ importers:
         specifier: ^8.53.0
         version: 8.53.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       vercel:
-        specifier: ^50.3.3
-        version: 50.3.3(rollup@4.55.1)(typescript@5.9.3)
+        specifier: ^50.4.0
+        version: 50.4.0(rollup@4.55.1)(typescript@5.9.3)
       vite:
         specifier: ^7.3.1
         version: 7.3.1(@types/node@24.10.8)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.21.0)
@@ -137,10 +137,6 @@ packages:
 
   '@babel/helper-module-imports@7.18.6':
     resolution: {integrity: sha512-0NFvs3VkuSYbFi1x2Vd6tKrywq+z/cLeYC/RJNFrIX/30Bf5aiGYbtvGXolEktzJH8o5E5KJ3tT+nkxuuZFVlA==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/helper-module-imports@7.27.1':
-    resolution: {integrity: sha512-0gSFWUPNXNopqtIPQvlD5WgXYI5GY2kP2cCvoT8kczjbfcfuIljTbcWrulD1CIPIX2gt1wghbDy08yE1p+/r3w==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-module-imports@7.28.6':
@@ -1406,8 +1402,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@vercel/backends@0.0.21':
-    resolution: {integrity: sha512-/IvjltreJa3o4vl3vt7Oa+iiWcGOZHuKeo4qZGKMq8CJFLGdH8WKrs7jreGM5TzUZK2qd12fP4eooID5hoHAIQ==}
+  '@vercel/backends@0.0.22':
+    resolution: {integrity: sha512-O+HmKvFkvWbTG7ESN8vOfzBMzjfKdg8qP7/qqqsCK0IqtuihlVOkLRM9Smb5pAgk/QrlTfsBM6fjhneBNcHXtQ==}
 
   '@vercel/blob@1.0.2':
     resolution: {integrity: sha512-Im/KeFH4oPx7UsM+QiteimnE07bIUD7JK6CBafI9Z0jRFogaialTBMiZj8EKk/30ctUYsrpIIyP9iIY1YxWnUQ==}
@@ -1469,8 +1465,8 @@ packages:
   '@vercel/hydrogen@1.3.5':
     resolution: {integrity: sha512-7EE6yVKcCnjMb1io9y069GkLyGyIzRbW3Krm3Q7EEfJ3P46h9xe9v/O5UhBoPrwtqDUHxmDngZp9YyfgY8IITA==}
 
-  '@vercel/introspection@0.0.8':
-    resolution: {integrity: sha512-iECaa8RlfXw+ldWZXH8V+NMxox62ggfNeBph2aFcYCujudcXjtjBrWwV9mMOeMysm8zTM9Ux0lb5oMXc/ivYTg==}
+  '@vercel/introspection@0.0.9':
+    resolution: {integrity: sha512-JWaKUpnDwOKEZldQK82HRufo1o+XYK/RIUoOZSzWWFCYnyx6Ve5wR2BkZzRx6aJPx+MGNEx2HWDu+JI5X2BTKQ==}
 
   '@vercel/koa@0.1.2':
     resolution: {integrity: sha512-7CURkocAEfIpJvVES114jW8aCsa22czmSEavr/hhFKAFTCJidJf7kiTZTI3OW6Zln7D3yA0PAXY65PPCs0nZ9A==}
@@ -3264,8 +3260,8 @@ packages:
   v8-compile-cache-lib@3.0.1:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
 
-  vercel@50.3.3:
-    resolution: {integrity: sha512-RCSU7U+G69DrUKCeJkgXrtVrrt52SnDYPEXQzuOySEbUUX1p/daKIQtvzV3Xpt2oxNAS04LMh40DwEzNbcXAtg==}
+  vercel@50.4.0:
+    resolution: {integrity: sha512-o/u54pjMfDkItHaEhYEOutfxbsdWijbBYynV9ZBxGxICPwDjaUjZs7VP8ayVHjW8X00sb38dL8xfc75wxFV2Yw==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -3475,13 +3471,6 @@ snapshots:
   '@babel/helper-module-imports@7.18.6':
     dependencies:
       '@babel/types': 7.28.6
-
-  '@babel/helper-module-imports@7.27.1':
-    dependencies:
-      '@babel/traverse': 7.28.6
-      '@babel/types': 7.28.6
-    transitivePeerDependencies:
-      - supports-color
 
   '@babel/helper-module-imports@7.28.6':
     dependencies:
@@ -4447,10 +4436,10 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@vercel/backends@0.0.21(rollup@4.55.1)(typescript@5.9.3)':
+  '@vercel/backends@0.0.22(rollup@4.55.1)(typescript@5.9.3)':
     dependencies:
       '@vercel/cervel': 0.0.9(typescript@5.9.3)
-      '@vercel/introspection': 0.0.8
+      '@vercel/introspection': 0.0.9
       '@vercel/nft': 1.1.1(rollup@4.55.1)
       '@vercel/static-config': 3.1.2
       fs-extra: 11.1.0
@@ -4596,7 +4585,7 @@ snapshots:
       '@vercel/static-config': 3.1.2
       ts-morph: 12.0.0
 
-  '@vercel/introspection@0.0.8':
+  '@vercel/introspection@0.0.9':
     dependencies:
       path-to-regexp: 8.3.0
       zod: 3.22.4
@@ -6419,7 +6408,7 @@ snapshots:
   solid-refresh@0.6.3(solid-js@1.9.10):
     dependencies:
       '@babel/generator': 7.28.6
-      '@babel/helper-module-imports': 7.27.1
+      '@babel/helper-module-imports': 7.28.6
       '@babel/types': 7.28.6
       solid-js: 1.9.10
     transitivePeerDependencies:
@@ -6693,9 +6682,9 @@ snapshots:
 
   v8-compile-cache-lib@3.0.1: {}
 
-  vercel@50.3.3(rollup@4.55.1)(typescript@5.9.3):
+  vercel@50.4.0(rollup@4.55.1)(typescript@5.9.3):
     dependencies:
-      '@vercel/backends': 0.0.21(rollup@4.55.1)(typescript@5.9.3)
+      '@vercel/backends': 0.0.22(rollup@4.55.1)(typescript@5.9.3)
       '@vercel/blob': 1.0.2
       '@vercel/build-utils': 13.2.8
       '@vercel/detect-agent': 1.0.0
