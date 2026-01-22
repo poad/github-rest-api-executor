@@ -10,6 +10,8 @@ overrides:
   esbuild@<=0.24.2: '>=0.25.0'
   glob@>=10.3.7 <=11.0.3: '>=11.1.0'
   path-to-regexp@>=4.0.0 <6.3.0: '>=6.3.0'
+  seroval@<1.4.1: '>=1.4.1'
+  seroval@<=1.4.0: '>=1.4.1'
   tar@<=7.5.2: '>=7.5.3'
   undici@<5.29.0: '>=5.29.0'
   undici@>=4.5.0 <5.28.5: '>=5.28.5'
@@ -53,7 +55,7 @@ importers:
         specifier: ^4.1.18
         version: 4.1.18
       '@types/node':
-        specifier: ^24.10.4
+        specifier: ^24.10.9
         version: 24.10.9
       autoprefixer:
         specifier: ^10.4.23
@@ -1484,8 +1486,8 @@ packages:
     engines: {node: '>=20'}
     hasBin: true
 
-  '@vercel/nft@1.2.0':
-    resolution: {integrity: sha512-68326CAWJmd6P1cUgUmufor5d4ocPbpLxiy9TKG6U/a4aWEx9aC+NIzaDI6GmBZVpt3+MkO3OwnQ2YcgJg12Qw==}
+  '@vercel/nft@1.3.0':
+    resolution: {integrity: sha512-i4EYGkCsIjzu4vorDUbqglZc5eFtQI2syHb++9ZUDm6TU4edVywGpVnYDein35x9sevONOn9/UabfQXuNXtuzQ==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -2949,10 +2951,10 @@ packages:
     resolution: {integrity: sha512-16OL3NnUBw8JG1jBLUoZJsLnQq0n5Ua6aHalhJK4fMQkz1lqR7Osz1sA30trBtd9VUDc2NgkuRCn8+/pBwqZ+w==}
     engines: {node: '>=10'}
     peerDependencies:
-      seroval: ^1.0
+      seroval: '>=1.4.1'
 
-  seroval@1.3.2:
-    resolution: {integrity: sha512-RbcPH1n5cfwKrru7v7+zrZvjLurgHhGyso3HTyGtRivGWgYjbOmGuivCQaORNELjNONoK35nj28EoWul9sb1zQ==}
+  seroval@1.4.2:
+    resolution: {integrity: sha512-N3HEHRCZYn3cQbsC4B5ldj9j+tHdf4JZoYPlcI4rRYu0Xy4qN8MQf1Z08EibzB0WpgRG5BGK08FTrmM66eSzKQ==}
     engines: {node: '>=10'}
 
   set-function-length@1.2.2:
@@ -4617,7 +4619,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/nft@1.2.0(rollup@4.55.3)':
+  '@vercel/nft@1.3.0(rollup@4.55.3)':
     dependencies:
       '@mapbox/node-pre-gyp': 2.0.3
       '@rollup/pluginutils': 5.3.0(rollup@4.55.3)
@@ -6292,11 +6294,11 @@ snapshots:
 
   semver@7.7.3: {}
 
-  seroval-plugins@1.3.3(seroval@1.3.2):
+  seroval-plugins@1.3.3(seroval@1.4.2):
     dependencies:
-      seroval: 1.3.2
+      seroval: 1.4.2
 
-  seroval@1.3.2: {}
+  seroval@1.4.2: {}
 
   set-function-length@1.2.2:
     dependencies:
@@ -6363,8 +6365,8 @@ snapshots:
   solid-js@1.9.10:
     dependencies:
       csstype: 3.2.3
-      seroval: 1.3.2
-      seroval-plugins: 1.3.3(seroval@1.3.2)
+      seroval: 1.4.2
+      seroval-plugins: 1.3.3(seroval@1.4.2)
 
   solid-refresh@0.6.3(solid-js@1.9.10):
     dependencies:
@@ -6688,7 +6690,7 @@ snapshots:
       '@brillout/libassert': 0.5.8
       '@manypkg/find-root': 2.2.3
       '@vercel/build-utils': 13.2.14
-      '@vercel/nft': 1.2.0(rollup@4.55.3)
+      '@vercel/nft': 1.3.0(rollup@4.55.3)
       '@vercel/routing-utils': 5.3.2
       esbuild: 0.25.12
       fast-glob: 3.3.3
