@@ -55,7 +55,7 @@ importers:
         specifier: ^4.1.18
         version: 4.1.18
       '@types/node':
-        specifier: ^24.10.9
+        specifier: ^24.10.4
         version: 24.10.9
       autoprefixer:
         specifier: ^10.4.23
