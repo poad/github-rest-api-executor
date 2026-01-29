@@ -16,7 +16,7 @@
     "@eslint/js": "^9.39.2",
     "@stylistic/eslint-plugin": "^5.7.1",
     "@tailwindcss/postcss": "^4.1.18",
-    "@types/node": "^25.1.0",
+    "@types/node": "^24.10.9",
     "autoprefixer": "^10.4.23",
     "dotenv": "^17.2.3",
     "eslint": "^9.39.2",
@@ -44,5 +44,5 @@
     "solid-js": "^1.9.11"
   },
   "license": "MIT",
-  "packageManager": "pnpm@10.28.1"
+  "packageManager": "pnpm@10.28.2"
 }
