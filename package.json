@@ -13,13 +13,13 @@
   "devDependencies": {
     "@eslint/compat": "^2.0.2",
     "@eslint/eslintrc": "^3.3.3",
-    "@eslint/js": "^10.0.1",
+    "@eslint/js": "^9.39.2",
     "@stylistic/eslint-plugin": "^5.8.0",
     "@tailwindcss/postcss": "^4.1.18",
-    "@types/node": "^25.2.3",
+    "@types/node": "^24.10.13",
     "autoprefixer": "^10.4.24",
     "dotenv": "^17.2.4",
-    "eslint": "^10.0.0",
+    "eslint": "^9.39.2",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-boundaries": "^5.4.0",
     "eslint-plugin-import": "^2.32.0",
@@ -44,5 +44,5 @@
     "solid-js": "^1.9.11"
   },
   "license": "MIT",
-  "packageManager": "pnpm@10.29.1"
+  "packageManager": "pnpm@10.29.3"
 }
