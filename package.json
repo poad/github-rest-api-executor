@@ -17,7 +17,7 @@
     "@stylistic/eslint-plugin": "^5.9.0",
     "@tailwindcss/postcss": "^4.2.1",
     "@types/node": "^25.3.0",
-    "autoprefixer": "^10.4.24",
+    "autoprefixer": "^10.4.27",
     "dotenv": "^17.3.1",
     "eslint": "^10.0.2",
     "eslint-import-resolver-typescript": "^4.4.4",
