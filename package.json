@@ -13,24 +13,24 @@
   "devDependencies": {
     "@eslint/compat": "^2.0.3",
     "@eslint/eslintrc": "^3.3.5",
-    "@eslint/js": "^10.0.1",
+    "@eslint/js": "^9.39.4",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@tailwindcss/postcss": "^4.2.1",
-    "@types/node": "^25.4.0",
+    "@types/node": "^24.12.0",
     "autoprefixer": "^10.4.27",
     "dotenv": "^17.3.1",
-    "eslint": "^10.0.3",
+    "eslint": "^9.39.4",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-boundaries": "^5.4.0",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-solid": "^0.14.5",
-    "pnpm": "^10.32.0",
+    "pnpm": "^10.32.1",
     "postcss": "^8.5.8",
     "tailwindcss": "4.2.1",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.57.0",
-    "vercel": "^50.29.0",
+    "vercel": "^50.32.5",
     "vite": "^7.3.1",
     "vite-plugin-solid": "^2.11.10",
     "vite-plugin-vercel": "^9.1.1"
@@ -44,5 +44,5 @@
     "solid-js": "^1.9.11"
   },
   "license": "MIT",
-  "packageManager": "pnpm@10.32.0"
+  "packageManager": "pnpm@10.32.1"
 }
