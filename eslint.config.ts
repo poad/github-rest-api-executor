@@ -1,10 +1,9 @@
-// @ts-check
-
 import { defineConfig } from 'eslint/config';
 import eslint from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
 import {parser, configs} from 'typescript-eslint';
-import importPlugin from 'eslint-plugin-import';
+import { importX } from 'eslint-plugin-import-x';
+import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 import pluginPromise from 'eslint-plugin-promise';
 import solid from "eslint-plugin-solid/configs/typescript";
 
@@ -32,7 +31,6 @@ export default defineConfig(
   eslint.configs.recommended,
   ...configs.strict,
   ...configs.stylistic,
-  // @ts-expect-error eslint-plugin-promise has no types
   pluginPromise.configs['flat/recommended'],
   {
     files: ['src/**/*.{ts,tsx}'],
@@ -47,21 +45,23 @@ export default defineConfig(
       },
     },
     extends: [
-      importPlugin.flatConfigs.recommended,
-      importPlugin.flatConfigs.typescript,
+      importX.flatConfigs.recommended,
+      importX.flatConfigs.typescript,
     ],
     plugins: {
+      'import-x': importX,
       '@stylistic': stylistic,
     },
     settings: {
-      'import/parsers': {
+      'import-x/internal-regex': '^~/',
+      'import-x/resolver-next': [
+        createTypeScriptImportResolver({
+          alwaysTryTypes: true,
+        }),
+      ],
+      'import-x/parsers': {
         espree: ['.js', '.cjs', '.mjs'],
         '@typescript-eslint/parser': ['.ts'],
-      },
-      'import/internal-regex': '^~/',
-      'import/resolver': {
-        node: true,
-        typescript: true,
       },
     },
     rules: {
@@ -69,12 +69,6 @@ export default defineConfig(
       '@stylistic/indent': ['error', 2],
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
       '@stylistic/quotes': ['error', 'single'],
-      'import/namespace': 'off',
-      'import/no-unresolved': 'off',
-      'import/default': 'off',
-      'import/no-duplicates': 'off',
-      'import/no-named-as-default': 'off',
-      'import/no-named-as-default-member': 'off',
     },
   },
 );

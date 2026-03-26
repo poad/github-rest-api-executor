@@ -1,10 +1,10 @@
 import { Show, type Component } from 'solid-js';
-import cookie from 'cookie';
+import { parse } from 'cookie';
 import InputBar from './features/InputBar/components';
 import GitHubLoginButton from './features/GitHubAuth/components';
 
 const App: Component = () => {
-  const tokens = cookie.parse(document.cookie);
+  const tokens = parse(document.cookie);
   return (
     <>
       <nav>
