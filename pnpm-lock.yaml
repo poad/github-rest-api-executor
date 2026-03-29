@@ -107,16 +107,16 @@ importers:
         version: 8.57.2(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.2)
       vercel:
         specifier: ^50.37.3
-        version: 50.37.3(rollup@4.59.0)(typescript@6.0.2)
+        version: 50.37.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(rollup@4.59.0)(typescript@6.0.2)
       vite:
         specifier: ^8.0.3
-        version: 8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)
+        version: 8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)
       vite-plugin-solid:
         specifier: ^2.11.11
-        version: 2.11.11(solid-js@1.9.12)(vite@8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))
+        version: 2.11.11(solid-js@1.9.12)(vite@8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))
       vite-plugin-vercel:
         specifier: ^11.0.3
-        version: 11.0.3(rollup@4.59.0)(srvx@0.11.13)(vite@8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))
+        version: 11.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(rollup@4.59.0)(srvx@0.11.13)(vite@8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))
 
 packages:
 
@@ -659,8 +659,11 @@ packages:
   '@napi-rs/wasm-runtime@0.2.12':
     resolution: {integrity: sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==}
 
-  '@napi-rs/wasm-runtime@1.1.1':
-    resolution: {integrity: sha512-p64ah1M1ld8xjWv3qbvFwHiFVWrq1yFvV4f7w+mzaqiR4IlSgkqhcRdHwsGgomwzBH51sRY4NEowLxnaBjcW/A==}
+  '@napi-rs/wasm-runtime@1.1.2':
+    resolution: {integrity: sha512-sNXv5oLJ7ob93xkZ1XnxisYhGYXfaG9f65/ZgYuAu3qt7b3NadcOEhLvx28hv31PgX8SZJRYrAIPQilQmFpLVw==}
+    peerDependencies:
+      '@emnapi/core': ^1.7.1
+      '@emnapi/runtime': ^1.7.1
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1931,8 +1934,8 @@ packages:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
     engines: {node: 18 || 20 || >=22}
 
-  baseline-browser-mapping@2.10.11:
-    resolution: {integrity: sha512-DAKrHphkJyiGuau/cFieRYhcTFeK/lBuD++C7cZ6KZHbMhBrisoi+EvhQ5RZrIfV5qwsW8kgQ07JIC+MDJRAhg==}
+  baseline-browser-mapping@2.10.12:
+    resolution: {integrity: sha512-qyq26DxfY4awP2gIRXhhLWfwzwI+N5Nxk6iQi8EFizIaWIjqicQTE4sLnZZVdeKPRcVNoJOkkpfzoIYuvCKaIQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -2017,8 +2020,8 @@ packages:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
 
-  comment-parser@1.4.5:
-    resolution: {integrity: sha512-aRDkn3uyIlCFfk5NUA+VdwMmMsh8JGhc4hapfV4yxymHGQ3BVskMQfoXGpCo5IoBuQ9tS5iiVKhCpTcB4pW4qw==}
+  comment-parser@1.4.6:
+    resolution: {integrity: sha512-ObxuY6vnbWTN6Od72xfwN9DbzC7Y2vv8u1Soi9ahRKL37gb6y1qk6/dgjs+3JWuXJHWvsg3BXIwzd/rkmAwavg==}
     engines: {node: '>= 12.0.0'}
 
   concat-map@0.0.1:
@@ -4227,7 +4230,7 @@ snapshots:
       '@tybys/wasm-util': 0.10.1
     optional: true
 
-  '@napi-rs/wasm-runtime@1.1.1':
+  '@napi-rs/wasm-runtime@1.1.2(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)':
     dependencies:
       '@emnapi/core': 1.9.1
       '@emnapi/runtime': 1.9.1
@@ -4393,14 +4396,20 @@ snapshots:
   '@oxc-transform/binding-openharmony-arm64@0.120.0':
     optional: true
 
-  '@oxc-transform/binding-wasm32-wasi@0.111.0':
+  '@oxc-transform/binding-wasm32-wasi@0.111.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.1
+      '@napi-rs/wasm-runtime': 1.1.2(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
     optional: true
 
-  '@oxc-transform/binding-wasm32-wasi@0.120.0':
+  '@oxc-transform/binding-wasm32-wasi@0.120.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.1
+      '@napi-rs/wasm-runtime': 1.1.2(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
     optional: true
 
   '@oxc-transform/binding-win32-arm64-msvc@0.111.0':
@@ -4491,14 +4500,20 @@ snapshots:
   '@rolldown/binding-openharmony-arm64@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-wasm32-wasi@1.0.0-rc.1':
+  '@rolldown/binding-wasm32-wasi@1.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.1
+      '@napi-rs/wasm-runtime': 1.1.2(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
     optional: true
 
-  '@rolldown/binding-wasm32-wasi@1.0.0-rc.12':
+  '@rolldown/binding-wasm32-wasi@1.0.0-rc.12(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.1
+      '@napi-rs/wasm-runtime': 1.1.2(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
     optional: true
 
   '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.1':
@@ -4834,26 +4849,26 @@ snapshots:
       '@typescript-eslint/types': 8.57.2
       eslint-visitor-keys: 5.0.1
 
-  '@universal-deploy/node@0.1.3(vite@8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))':
+  '@universal-deploy/node@0.1.3(vite@8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))':
     dependencies:
       '@universal-deploy/store': 0.2.0
       srvx: 0.11.13
     optionalDependencies:
-      vite: 8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)
+      vite: 8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)
 
   '@universal-deploy/store@0.2.0':
     dependencies:
       rou3: 0.8.1
 
-  '@universal-deploy/vite@0.1.0(srvx@0.11.13)(vite@8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))':
+  '@universal-deploy/vite@0.1.0(srvx@0.11.13)(vite@8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))':
     dependencies:
-      '@universal-deploy/node': 0.1.3(vite@8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))
+      '@universal-deploy/node': 0.1.3(vite@8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))
       '@universal-deploy/store': 0.2.0
       '@universal-middleware/express': 0.4.26(srvx@0.11.13)
       magic-string: 0.30.21
       rou3: 0.8.1
     optionalDependencies:
-      vite: 8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)
+      vite: 8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)
     transitivePeerDependencies:
       - '@cloudflare/workers-types'
       - '@hattip/core'
@@ -4960,21 +4975,23 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@vercel/backends@0.0.53(rollup@4.59.0)(typescript@6.0.2)':
+  '@vercel/backends@0.0.53(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(rollup@4.59.0)(typescript@6.0.2)':
     dependencies:
       '@vercel/build-utils': 13.12.0
       '@vercel/nft': 1.5.0(rollup@4.59.0)
       execa: 3.2.0
       fs-extra: 11.1.0
-      oxc-transform: 0.111.0
+      oxc-transform: 0.111.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)
       path-to-regexp: 8.4.0
       resolve.exports: 2.0.3
-      rolldown: 1.0.0-rc.1
+      rolldown: 1.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)
       srvx: 0.11.13
       tsx: 4.21.0
       typescript: 6.0.2
       zod: 3.22.4
     transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
       - encoding
       - rollup
       - supports-color
@@ -4993,11 +5010,13 @@ snapshots:
       cjs-module-lexer: 1.2.3
       es-module-lexer: 1.5.0
 
-  '@vercel/cervel@0.0.40(rollup@4.59.0)(typescript@6.0.2)':
+  '@vercel/cervel@0.0.40(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(rollup@4.59.0)(typescript@6.0.2)':
     dependencies:
-      '@vercel/backends': 0.0.53(rollup@4.59.0)(typescript@6.0.2)
+      '@vercel/backends': 0.0.53(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(rollup@4.59.0)(typescript@6.0.2)
       typescript: 6.0.2
     transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
       - encoding
       - rollup
       - supports-color
@@ -5015,9 +5034,9 @@ snapshots:
 
   '@vercel/error-utils@2.0.3': {}
 
-  '@vercel/express@0.1.65(rollup@4.59.0)(typescript@6.0.2)':
+  '@vercel/express@0.1.65(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(rollup@4.59.0)(typescript@6.0.2)':
     dependencies:
-      '@vercel/cervel': 0.0.40(rollup@4.59.0)(typescript@6.0.2)
+      '@vercel/cervel': 0.0.40(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(rollup@4.59.0)(typescript@6.0.2)
       '@vercel/nft': 1.5.0(rollup@4.59.0)
       '@vercel/node': 5.6.22(rollup@4.59.0)
       '@vercel/static-config': 3.2.0
@@ -5026,6 +5045,8 @@ snapshots:
       ts-morph: 12.0.0
       zod: 3.22.4
     transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
       - encoding
       - rollup
       - supports-color
@@ -5398,7 +5419,7 @@ snapshots:
 
   balanced-match@4.0.4: {}
 
-  baseline-browser-mapping@2.10.11: {}
+  baseline-browser-mapping@2.10.12: {}
 
   basic-ftp@5.2.0: {}
 
@@ -5423,7 +5444,7 @@ snapshots:
 
   browserslist@4.28.1:
     dependencies:
-      baseline-browser-mapping: 2.10.11
+      baseline-browser-mapping: 2.10.12
       caniuse-lite: 1.0.30001781
       electron-to-chromium: 1.5.328
       node-releases: 2.0.36
@@ -5479,7 +5500,7 @@ snapshots:
     dependencies:
       delayed-stream: 1.0.0
 
-  comment-parser@1.4.5: {}
+  comment-parser@1.4.6: {}
 
   concat-map@0.0.1: {}
 
@@ -5820,7 +5841,7 @@ snapshots:
     dependencies:
       '@package-json/types': 0.0.12
       '@typescript-eslint/types': 8.57.2
-      comment-parser: 1.4.5
+      comment-parser: 1.4.6
       debug: 4.4.3
       eslint: 9.39.4(jiti@2.6.1)
       eslint-import-context: 0.1.9(unrs-resolver@1.11.1)
@@ -6654,7 +6675,7 @@ snapshots:
       object-keys: 1.1.1
       safe-push-apply: 1.0.0
 
-  oxc-transform@0.111.0:
+  oxc-transform@0.111.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1):
     optionalDependencies:
       '@oxc-transform/binding-android-arm-eabi': 0.111.0
       '@oxc-transform/binding-android-arm64': 0.111.0
@@ -6672,12 +6693,15 @@ snapshots:
       '@oxc-transform/binding-linux-x64-gnu': 0.111.0
       '@oxc-transform/binding-linux-x64-musl': 0.111.0
       '@oxc-transform/binding-openharmony-arm64': 0.111.0
-      '@oxc-transform/binding-wasm32-wasi': 0.111.0
+      '@oxc-transform/binding-wasm32-wasi': 0.111.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)
       '@oxc-transform/binding-win32-arm64-msvc': 0.111.0
       '@oxc-transform/binding-win32-ia32-msvc': 0.111.0
       '@oxc-transform/binding-win32-x64-msvc': 0.111.0
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
 
-  oxc-transform@0.120.0:
+  oxc-transform@0.120.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1):
     optionalDependencies:
       '@oxc-transform/binding-android-arm-eabi': 0.120.0
       '@oxc-transform/binding-android-arm64': 0.120.0
@@ -6695,10 +6719,13 @@ snapshots:
       '@oxc-transform/binding-linux-x64-gnu': 0.120.0
       '@oxc-transform/binding-linux-x64-musl': 0.120.0
       '@oxc-transform/binding-openharmony-arm64': 0.120.0
-      '@oxc-transform/binding-wasm32-wasi': 0.120.0
+      '@oxc-transform/binding-wasm32-wasi': 0.120.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)
       '@oxc-transform/binding-win32-arm64-msvc': 0.120.0
       '@oxc-transform/binding-win32-ia32-msvc': 0.120.0
       '@oxc-transform/binding-win32-x64-msvc': 0.120.0
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
 
   p-finally@2.0.1: {}
 
@@ -6864,7 +6891,7 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  rolldown@1.0.0-rc.1:
+  rolldown@1.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1):
     dependencies:
       '@oxc-project/types': 0.110.0
       '@rolldown/pluginutils': 1.0.0-rc.1
@@ -6879,11 +6906,14 @@ snapshots:
       '@rolldown/binding-linux-x64-gnu': 1.0.0-rc.1
       '@rolldown/binding-linux-x64-musl': 1.0.0-rc.1
       '@rolldown/binding-openharmony-arm64': 1.0.0-rc.1
-      '@rolldown/binding-wasm32-wasi': 1.0.0-rc.1
+      '@rolldown/binding-wasm32-wasi': 1.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)
       '@rolldown/binding-win32-arm64-msvc': 1.0.0-rc.1
       '@rolldown/binding-win32-x64-msvc': 1.0.0-rc.1
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
 
-  rolldown@1.0.0-rc.12:
+  rolldown@1.0.0-rc.12(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1):
     dependencies:
       '@oxc-project/types': 0.122.0
       '@rolldown/pluginutils': 1.0.0-rc.12
@@ -6900,9 +6930,12 @@ snapshots:
       '@rolldown/binding-linux-x64-gnu': 1.0.0-rc.12
       '@rolldown/binding-linux-x64-musl': 1.0.0-rc.12
       '@rolldown/binding-openharmony-arm64': 1.0.0-rc.12
-      '@rolldown/binding-wasm32-wasi': 1.0.0-rc.12
+      '@rolldown/binding-wasm32-wasi': 1.0.0-rc.12(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)
       '@rolldown/binding-win32-arm64-msvc': 1.0.0-rc.12
       '@rolldown/binding-win32-x64-msvc': 1.0.0-rc.12
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
 
   rollup@4.59.0:
     dependencies:
@@ -7319,14 +7352,14 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vercel@50.37.3(rollup@4.59.0)(typescript@6.0.2):
+  vercel@50.37.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(rollup@4.59.0)(typescript@6.0.2):
     dependencies:
-      '@vercel/backends': 0.0.53(rollup@4.59.0)(typescript@6.0.2)
+      '@vercel/backends': 0.0.53(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(rollup@4.59.0)(typescript@6.0.2)
       '@vercel/blob': 2.3.0
       '@vercel/build-utils': 13.12.0
       '@vercel/detect-agent': 1.2.1
       '@vercel/elysia': 0.1.55(rollup@4.59.0)
-      '@vercel/express': 0.1.65(rollup@4.59.0)(typescript@6.0.2)
+      '@vercel/express': 0.1.65(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(rollup@4.59.0)(typescript@6.0.2)
       '@vercel/fastify': 0.1.58(rollup@4.59.0)
       '@vercel/fun': 1.3.0
       '@vercel/go': 3.4.6
@@ -7351,12 +7384,14 @@ snapshots:
       luxon: 3.7.2
       proxy-agent: 6.4.0
     transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
       - encoding
       - rollup
       - supports-color
       - typescript
 
-  vite-plugin-solid@2.11.11(solid-js@1.9.12)(vite@8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)):
+  vite-plugin-solid@2.11.11(solid-js@1.9.12)(vite@8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)):
     dependencies:
       '@babel/core': 7.29.0
       '@types/babel__core': 7.20.5
@@ -7364,16 +7399,16 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.12
       solid-refresh: 0.6.3(solid-js@1.9.12)
-      vite: 8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)
-      vitefu: 1.1.2(vite@8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))
+      vite: 8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)
+      vitefu: 1.1.2(vite@8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-vercel@11.0.3(rollup@4.59.0)(srvx@0.11.13)(vite@8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)):
+  vite-plugin-vercel@11.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(rollup@4.59.0)(srvx@0.11.13)(vite@8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)):
     dependencies:
       '@manypkg/find-root': 3.1.0
       '@universal-deploy/store': 0.2.0
-      '@universal-deploy/vite': 0.1.0(srvx@0.11.13)(vite@8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))
+      '@universal-deploy/vite': 0.1.0(srvx@0.11.13)(vite@8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0))
       '@vercel/build-utils': 13.12.0
       '@vercel/nft': 1.5.0(rollup@4.59.0)
       '@vercel/routing-utils': 6.1.1
@@ -7382,12 +7417,14 @@ snapshots:
       fast-glob: 3.3.3
       magicast: 0.5.2
       nf3: 0.3.14
-      oxc-transform: 0.120.0
+      oxc-transform: 0.120.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)
       p-limit: 7.3.0
-      rolldown: 1.0.0-rc.12
-      vite: 8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)
+      rolldown: 1.0.0-rc.12(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)
+      vite: 8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)
     transitivePeerDependencies:
       - '@cloudflare/workers-types'
+      - '@emnapi/core'
+      - '@emnapi/runtime'
       - '@hattip/core'
       - '@types/express'
       - '@webroute/route'
@@ -7400,12 +7437,12 @@ snapshots:
       - srvx
       - supports-color
 
-  vite@8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0):
+  vite@8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.4
       postcss: 8.5.8
-      rolldown: 1.0.0-rc.12
+      rolldown: 1.0.0-rc.12(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)
       tinyglobby: 0.2.15
     optionalDependencies:
       '@types/node': 24.12.0
@@ -7413,10 +7450,13 @@ snapshots:
       fsevents: 2.3.3
       jiti: 2.6.1
       tsx: 4.21.0
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
 
-  vitefu@1.1.2(vite@8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)):
+  vitefu@1.1.2(vite@8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)):
     optionalDependencies:
-      vite: 8.0.3(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)
+      vite: 8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(esbuild@0.27.4)(jiti@2.6.1)(tsx@4.21.0)
 
   web-vitals@0.2.4: {}
 
