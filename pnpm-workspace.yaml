@@ -1,3 +1,8 @@
+allowBuilds:
+  esbuild: false
+  unrs-resolver: false
+minimumReleaseAgeExclude:
+  - path-to-regexp@6.3.0
 onlyBuiltDependencies:
   - '@tailwindcss/oxide'
   - esbuild
@@ -9,6 +14,7 @@ overrides:
   handlebars@>=4.0.0 <=4.7.8: '>=4.7.9'
   minimatch@>=10.0.0 <10.2.1: '>=10.2.1'
   minimatch@>=10.0.0 <10.2.3: '>=10.2.3'
+  path-to-regexp@>=4.0.0 <6.3.0: ^6.3.0
   path-to-regexp@>=8.0.0 <8.4.0: '>=8.4.0'
   smol-toml@<1.6.1: '>=1.6.1'
   srvx@<0.11.13: '>=0.11.13'
