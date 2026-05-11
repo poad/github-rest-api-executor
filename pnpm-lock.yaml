@@ -1519,9 +1519,6 @@ packages:
     resolution: {integrity: sha512-oYWiJbWRQ7gz9Mj0X/NHFJ3OcLMOBzq/2b3j6zeNrQmtFo6dHwU8FAwNpxVIYddVMd+g8eqEi7iRueYx8FtM0Q==}
     engines: {node: '>=20.0.0'}
 
-  '@vercel/build-utils@13.22.0':
-    resolution: {integrity: sha512-4DWbevInIV7ZqrPWZR58s6S9FtfpOBEJFKqXEm7bwiC8Hq8hKOk/igkDei3taja1bC6mfps44OEGlCH0cARSHw==}
-
   '@vercel/build-utils@13.22.1':
     resolution: {integrity: sha512-oYzvl9Xh0woTHQrGA9lKVDj1K1+MdfPPnerNwlQtldbsCDez55sxadGxvjCBmkVmNhTf+rkkQzSUe6uz0dFhBA==}
 
@@ -4827,12 +4824,6 @@ snapshots:
       throttleit: 2.1.0
       undici: 8.2.0
 
-  '@vercel/build-utils@13.22.0':
-    dependencies:
-      '@vercel/python-analysis': 0.11.1
-      cjs-module-lexer: 1.2.3
-      es-module-lexer: 1.5.0
-
   '@vercel/build-utils@13.22.1':
     dependencies:
       '@vercel/python-analysis': 0.11.1
@@ -7332,7 +7323,7 @@ snapshots:
       '@manypkg/find-root': 3.1.0
       '@universal-deploy/store': 0.2.1(srvx@0.11.15)
       '@universal-deploy/vite': 0.1.9(srvx@0.11.15)(vite@8.0.11(@types/node@25.6.2)(esbuild@0.27.0)(jiti@2.7.0)(tsx@4.21.0))
-      '@vercel/build-utils': 13.22.0
+      '@vercel/build-utils': 13.22.1
       '@vercel/nft': 1.5.0
       '@vercel/routing-utils': 6.2.0
       '@vite-plugin-vercel/schemas': 1.1.0
