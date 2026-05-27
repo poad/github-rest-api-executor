@@ -32,6 +32,8 @@ export default defineConfig(
   ...configs.strict,
   ...configs.stylistic,
   pluginPromise.configs['flat/recommended'],
+  importX.flatConfigs.recommended,
+  importX.flatConfigs.typescript,
   {
     files: ['src/**/*.{ts,tsx}'],
     ...solid,
@@ -43,12 +45,7 @@ export default defineConfig(
         tsconfigRootDir: __dirname,
       },
     },
-    extends: [
-      importX.flatConfigs.recommended,
-      importX.flatConfigs.typescript,
-    ],
     plugins: {
-      'import-x': importX,
       '@stylistic': stylistic,
     },
     settings: {
