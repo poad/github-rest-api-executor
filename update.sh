@@ -6,39 +6,22 @@ CURRENT=$(cd "$(dirname "$0")" || exit;pwd)
 echo "${CURRENT}"
 
 cd "${CURRENT}" || exit
-git pull --prune
-result=$?
-if [ $result -ne 0 ]; then
+
+if ! (git pull --prune); then
   cd "${CUR}" || exit
-  exit $result
+  exit 1
 fi
 
-cd "${CURRENT}" || exit
-result=$?
-if [ $result -ne 0 ]; then
+if ! (cd "${CURRENT}" || exit && disable-checkout-persist-credentials && rm -rf node_modules && pnx pnpm@latest self-update && pnpm install -r && pnpm up -r && pnpm audit --fix override && pnpm up -r && pnpm lint-fix && pnpm build); then
   cd "${CUR}" || exit
-  exit $result
+  exit 1
 fi
 echo ""
 pwd
-rm -rf node_modules && npx -y pnpm@latest self-update && pnpm install -r && pnpm up -r && pnpm audit --fix override && pnpm up -r && pnpm lint-fix && pnpm build
-result=$?
-if [ $result -ne 0 ]; then
-  cd "${CUR}" || exit
-  exit $result
-fi
 
-cd "${CURRENT}" || exit
-result=$?
-if [ $result -ne 0 ]; then
+if ! (cd "${CURRENT}" || exit && git pull --prune && git commit -am "Bumps node modules" && git push); then
   cd "${CUR}" || exit
-  exit $result
-fi
-git pull --prune && git commit -am "Bumps node modules" && git push
-result=$?
-if [ $result -ne 0 ]; then
-  cd "${CUR}" || exit
-  exit $result
+  exit 1
 fi
 
 cd "${CUR}" || exit
