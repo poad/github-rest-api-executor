@@ -11,12 +11,12 @@
     "lint-fix": "eslint --fix"
   },
   "devDependencies": {
-    "@dotenvx/dotenvx": "^1.71.0",
+    "@dotenvx/dotenvx": "^1.71.3",
     "@eslint/eslintrc": "^3.3.5",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@tailwindcss/postcss": "^4.3.0",
-    "@types/node": "^25.9.2",
+    "@types/node": "^25.9.3",
     "autoprefixer": "^10.5.0",
     "eslint": "^10.4.1",
     "eslint-import-resolver-typescript": "^4.4.5",
@@ -29,20 +29,20 @@
     "postcss": "^8.5.15",
     "tailwindcss": "4.3.0",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.60.1",
-    "vercel": "^54.9.1",
+    "typescript-eslint": "^8.61.0",
+    "vercel": "^54.12.2",
     "vite": "^8.0.16",
     "vite-plugin-solid": "^2.11.12",
-    "vite-plugin-vercel": "^11.1.0"
+    "vite-plugin-vercel": "^11.1.1"
   },
   "dependencies": {
     "@octokit/core": "^7.0.6",
     "@octokit/plugin-paginate-rest": "^14.0.0",
     "@solid-primitives/storage": "^4.3.4",
-    "@vercel/functions": "^3.6.2",
+    "@vercel/functions": "^3.7.1",
     "cookie": "^1.1.1",
     "solid-js": "^1.9.13"
   },
   "license": "MIT",
-  "packageManager": "pnpm@11.5.2"
+  "packageManager": "pnpm@11.6.0"
 }
