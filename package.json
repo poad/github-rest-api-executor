@@ -11,14 +11,14 @@
     "lint-fix": "eslint --fix"
   },
   "devDependencies": {
-    "@dotenvx/dotenvx": "^1.71.3",
+    "@dotenvx/dotenvx": "^1.73.1",
     "@eslint/eslintrc": "^3.3.5",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
-    "@tailwindcss/postcss": "^4.3.0",
+    "@tailwindcss/postcss": "^4.3.1",
     "@types/node": "^25.9.3",
     "autoprefixer": "^10.5.0",
-    "eslint": "^10.4.1",
+    "eslint": "^10.5.0",
     "eslint-import-resolver-typescript": "^4.4.5",
     "eslint-plugin-boundaries": "^6.0.2",
     "eslint-plugin-import": "^2.32.0",
@@ -29,8 +29,8 @@
     "postcss": "^8.5.15",
     "tailwindcss": "4.3.0",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.61.0",
-    "vercel": "^54.12.2",
+    "typescript-eslint": "^8.61.1",
+    "vercel": "^54.14.2",
     "vite": "^8.0.16",
     "vite-plugin-solid": "^2.11.12",
     "vite-plugin-vercel": "^11.1.1"
@@ -44,5 +44,5 @@
     "solid-js": "^1.9.13"
   },
   "license": "MIT",
-  "packageManager": "pnpm@11.6.0"
+  "packageManager": "pnpm@11.7.0"
 }
