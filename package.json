@@ -16,7 +16,7 @@
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@tailwindcss/postcss": "^4.3.2",
-    "@types/node": "^26.0.1",
+    "@types/node": "^26.1.0",
     "autoprefixer": "^10.5.2",
     "eslint": "^10.6.0",
     "eslint-import-resolver-typescript": "^4.4.5",
@@ -30,7 +30,7 @@
     "tailwindcss": "4.3.2",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.62.1",
-    "vercel": "^54.18.6",
+    "vercel": "^54.18.7",
     "vite": "^8.1.2",
     "vite-plugin-solid": "^2.11.12",
     "vite-plugin-vercel": "^11.1.1"
@@ -39,7 +39,7 @@
     "@octokit/core": "^7.0.6",
     "@octokit/plugin-paginate-rest": "^14.0.0",
     "@solid-primitives/storage": "^4.3.4",
-    "@vercel/functions": "^3.7.4",
+    "@vercel/functions": "^3.7.5",
     "cookie": "^2.0.1",
     "solid-js": "^1.9.13"
   },
