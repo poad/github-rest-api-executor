@@ -11,7 +11,7 @@
     "lint-fix": "eslint --fix"
   },
   "devDependencies": {
-    "@dotenvx/dotenvx": "^2.2.2",
+    "@dotenvx/dotenvx": "^2.3.4",
     "@eslint/eslintrc": "^3.3.5",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
@@ -30,8 +30,8 @@
     "tailwindcss": "4.3.2",
     "typescript": "^7.0.2",
     "typescript-eslint": "^8.63.0",
-    "vercel": "^54.21.1",
-    "vite": "^8.1.3",
+    "vercel": "^55.0.0",
+    "vite": "^8.1.4",
     "vite-plugin-solid": "^2.11.12",
     "vite-plugin-vercel": "^11.1.1"
   },
