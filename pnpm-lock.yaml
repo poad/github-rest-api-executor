@@ -49,8 +49,8 @@ importers:
         version: 1.9.14
     devDependencies:
       '@dotenvx/dotenvx':
-        specifier: ^2.9.0
-        version: 2.9.0
+        specifier: ^2.11.0
+        version: 2.11.0
       '@eslint/eslintrc':
         specifier: ^3.3.6
         version: 3.3.6
@@ -212,15 +212,15 @@ packages:
   '@bytecodealliance/preview2-shim@0.17.6':
     resolution: {integrity: sha512-n3cM88gTen5980UOBAD6xDcNNL3ocTK8keab21bpx1ONdA+ARj7uD1qoFxOWCyKlkpSi195FH+GeAut7Oc6zZw==}
 
-  '@dotenvx/dotenvx@2.9.0':
-    resolution: {integrity: sha512-MWUcO/Kj8gVK7O1qNotzDEbCAQBn4G06Iwp5lzz1eeMgvAzfcWytHd1DNKyAtaPdtfeCK12fp7wksl32vR+aFQ==}
+  '@dotenvx/dotenvx@2.11.0':
+    resolution: {integrity: sha512-sKfELtkB2VxEU81k0HGfrg1El7a63DPA83NqpZDILEvVg6PvfKG6SQFEEvdzuGqa6mmFBipV2h/b7pxzCImVyg==}
     hasBin: true
 
   '@dotenvx/primitives@1.10.0':
     resolution: {integrity: sha512-QhA2HUFiL7FJTUklspNRt2B/hVoBaQGt4tkWuOTI/NMLuohNOG9CR8wVOhVQyJPBIQMK/HhdmUklRjDKzhS7Nw==}
 
-  '@dotenvx/tooling@1.0.2':
-    resolution: {integrity: sha512-yf4VwIZUzSqlLy2pe0kH2xk6dME73oYW5XqcHE7M1zA1H0RX/dSUThsSRmpCjp622iW9f6VGQl5Aa6szt5Xc0w==}
+  '@dotenvx/tooling@1.0.3':
+    resolution: {integrity: sha512-Gd6qQol/ICb4MPRWpiIH56y+pR9AVB7kPBkbhrLSGLtAiF4Qgy+k651/f2pze0Xbm3H5XewbPfIm4y9K+ic30Q==}
 
   '@edge-runtime/format@2.2.1':
     resolution: {integrity: sha512-JQTRVuiusQLNNLe2W9tnzBlV/GvSVcozLl4XZHk5swnRZ/v6jp8TqR8P7sqmJsQqblDZ3EztcWmLDbhRje/+8g==}
@@ -4175,15 +4175,15 @@ snapshots:
 
   '@bytecodealliance/preview2-shim@0.17.6': {}
 
-  '@dotenvx/dotenvx@2.9.0':
+  '@dotenvx/dotenvx@2.11.0':
     dependencies:
       '@dotenvx/primitives': 1.10.0
-      '@dotenvx/tooling': 1.0.2
+      '@dotenvx/tooling': 1.0.3
       yocto-spinner: 1.2.2
 
   '@dotenvx/primitives@1.10.0': {}
 
-  '@dotenvx/tooling@1.0.2': {}
+  '@dotenvx/tooling@1.0.3': {}
 
   '@edge-runtime/format@2.2.1': {}
 
